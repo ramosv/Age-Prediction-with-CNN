@@ -1,0 +1,930 @@
+2025-03-02 00:16:58,446 Epoch [1/5] - Train Loss: 362.0056 - Val Loss: 349.0487 - Validation RMSE: 18.6828
+2025-03-02 00:18:04,248 Epoch [2/5] - Train Loss: 314.1941 - Val Loss: 336.6012 - Validation RMSE: 18.3467
+2025-03-02 00:19:10,692 Epoch [3/5] - Train Loss: 298.6524 - Val Loss: 321.1411 - Validation RMSE: 17.9204
+2025-03-02 00:20:17,773 Epoch [4/5] - Train Loss: 284.1903 - Val Loss: 310.2549 - Validation RMSE: 17.6141
+2025-03-02 00:21:24,359 Epoch [5/5] - Train Loss: 268.6178 - Val Loss: 317.0646 - Validation RMSE: 17.8063
+2025-03-02 00:22:29,005 Epoch [1/10] - Train Loss: 726.4419 - Val Loss: 259.4261 - Validation RMSE: 16.1067
+2025-03-02 00:23:27,121 Epoch [2/10] - Train Loss: 292.4091 - Val Loss: 263.0531 - Validation RMSE: 16.2189
+2025-03-02 00:24:24,932 Epoch [3/10] - Train Loss: 272.8405 - Val Loss: 244.9051 - Validation RMSE: 15.6494
+2025-03-02 00:25:22,894 Epoch [4/10] - Train Loss: 253.1010 - Val Loss: 248.5139 - Validation RMSE: 15.7643
+2025-03-02 00:26:20,765 Epoch [5/10] - Train Loss: 230.1013 - Val Loss: 239.7842 - Validation RMSE: 15.4850
+2025-03-02 00:27:19,203 Epoch [6/10] - Train Loss: 213.8756 - Val Loss: 240.8824 - Validation RMSE: 15.5204
+2025-03-02 00:28:18,100 Epoch [7/10] - Train Loss: 204.8115 - Val Loss: 253.8918 - Validation RMSE: 15.9340
+2025-03-02 00:29:15,575 Epoch [8/10] - Train Loss: 195.7758 - Val Loss: 254.9715 - Validation RMSE: 15.9678
+2025-03-02 00:30:16,220 Epoch [9/10] - Train Loss: 194.5793 - Val Loss: 264.1438 - Validation RMSE: 16.2525
+2025-03-02 00:31:14,397 Epoch [10/10] - Train Loss: 190.3475 - Val Loss: 305.9717 - Validation RMSE: 17.4920
+2025-03-02 00:32:14,979 Epoch [1/10] - Train Loss: 479.3185 - Val Loss: 291.4646 - Validation RMSE: 17.0723
+2025-03-02 00:33:10,024 Epoch [2/10] - Train Loss: 290.0973 - Val Loss: 290.0082 - Validation RMSE: 17.0296
+2025-03-02 00:34:06,602 Epoch [3/10] - Train Loss: 275.4109 - Val Loss: 319.6472 - Validation RMSE: 17.8787
+2025-03-02 00:35:01,972 Epoch [4/10] - Train Loss: 270.6154 - Val Loss: 298.8159 - Validation RMSE: 17.2863
+2025-03-02 00:35:57,967 Epoch [5/10] - Train Loss: 256.3907 - Val Loss: 287.1600 - Validation RMSE: 16.9458
+2025-03-02 00:36:53,921 Epoch [6/10] - Train Loss: 233.9129 - Val Loss: 287.5421 - Validation RMSE: 16.9571
+2025-03-02 00:37:50,172 Epoch [7/10] - Train Loss: 210.1096 - Val Loss: 314.2794 - Validation RMSE: 17.7279
+2025-03-02 00:38:45,698 Epoch [8/10] - Train Loss: 197.6260 - Val Loss: 284.7916 - Validation RMSE: 16.8758
+2025-03-02 00:39:40,670 Epoch [9/10] - Train Loss: 196.4524 - Val Loss: 286.1729 - Validation RMSE: 16.9166
+2025-03-02 00:40:38,349 Epoch [10/10] - Train Loss: 191.4644 - Val Loss: 285.5569 - Validation RMSE: 16.8984
+2025-03-02 00:41:52,523 Epoch [1/5] - Train Loss: 375.5209 - Val Loss: 284.2911 - Validation RMSE: 16.8609
+2025-03-02 00:42:59,166 Epoch [2/5] - Train Loss: 326.0358 - Val Loss: 268.1912 - Validation RMSE: 16.3765
+2025-03-02 00:44:05,283 Epoch [3/5] - Train Loss: 311.5151 - Val Loss: 294.6443 - Validation RMSE: 17.1652
+2025-03-02 00:45:11,698 Epoch [4/5] - Train Loss: 297.6507 - Val Loss: 256.8562 - Validation RMSE: 16.0267
+2025-03-02 00:46:20,850 Epoch [5/5] - Train Loss: 286.5124 - Val Loss: 264.8486 - Validation RMSE: 16.2742
+2025-03-02 00:47:25,144 Epoch [1/10] - Train Loss: 721.6033 - Val Loss: 296.1509 - Validation RMSE: 17.2090
+2025-03-02 00:48:23,766 Epoch [2/10] - Train Loss: 287.6811 - Val Loss: 303.2768 - Validation RMSE: 17.4148
+2025-03-02 00:49:21,257 Epoch [3/10] - Train Loss: 260.9653 - Val Loss: 273.6008 - Validation RMSE: 16.5409
+2025-03-02 00:50:19,501 Epoch [4/10] - Train Loss: 237.2008 - Val Loss: 282.1135 - Validation RMSE: 16.7962
+2025-03-02 00:51:17,044 Epoch [5/10] - Train Loss: 215.2723 - Val Loss: 272.5851 - Validation RMSE: 16.5102
+2025-03-02 00:52:16,024 Epoch [6/10] - Train Loss: 201.7145 - Val Loss: 266.4722 - Validation RMSE: 16.3240
+2025-03-02 00:53:14,940 Epoch [7/10] - Train Loss: 192.3548 - Val Loss: 270.4012 - Validation RMSE: 16.4439
+2025-03-02 00:54:12,816 Epoch [8/10] - Train Loss: 187.8645 - Val Loss: 272.5831 - Validation RMSE: 16.5101
+2025-03-02 00:55:10,774 Epoch [9/10] - Train Loss: 180.8355 - Val Loss: 268.2192 - Validation RMSE: 16.3774
+2025-03-02 00:56:09,205 Epoch [10/10] - Train Loss: 176.8079 - Val Loss: 286.7366 - Validation RMSE: 16.9333
+2025-03-02 00:57:11,162 Epoch [1/10] - Train Loss: 471.1718 - Val Loss: 349.5579 - Validation RMSE: 18.6965
+2025-03-02 00:58:06,557 Epoch [2/10] - Train Loss: 285.4501 - Val Loss: 309.3666 - Validation RMSE: 17.5888
+2025-03-02 00:59:02,666 Epoch [3/10] - Train Loss: 268.9883 - Val Loss: 309.9422 - Validation RMSE: 17.6052
+2025-03-02 00:59:58,867 Epoch [4/10] - Train Loss: 251.6542 - Val Loss: 316.9887 - Validation RMSE: 17.8042
+2025-03-02 01:00:55,116 Epoch [5/10] - Train Loss: 242.8459 - Val Loss: 308.6375 - Validation RMSE: 17.5681
+2025-03-02 01:01:51,647 Epoch [6/10] - Train Loss: 214.5475 - Val Loss: 332.5531 - Validation RMSE: 18.2360
+2025-03-02 01:02:47,306 Epoch [7/10] - Train Loss: 199.3895 - Val Loss: 311.1093 - Validation RMSE: 17.6383
+2025-03-02 01:03:43,798 Epoch [8/10] - Train Loss: 190.9441 - Val Loss: 309.3366 - Validation RMSE: 17.5880
+2025-03-02 01:04:39,379 Epoch [9/10] - Train Loss: 177.0481 - Val Loss: 315.3437 - Validation RMSE: 17.7579
+2025-03-02 01:05:34,328 Epoch [10/10] - Train Loss: 172.4999 - Val Loss: 315.5753 - Validation RMSE: 17.7644
+2025-03-02 01:06:46,008 Epoch [1/5] - Train Loss: 361.1052 - Val Loss: 336.8350 - Validation RMSE: 18.3531
+2025-03-02 01:07:52,675 Epoch [2/5] - Train Loss: 312.9964 - Val Loss: 307.1321 - Validation RMSE: 17.5252
+2025-03-02 01:08:59,475 Epoch [3/5] - Train Loss: 298.7711 - Val Loss: 307.2645 - Validation RMSE: 17.5290
+2025-03-02 01:10:06,492 Epoch [4/5] - Train Loss: 284.3462 - Val Loss: 323.4362 - Validation RMSE: 17.9843
+2025-03-02 01:11:13,225 Epoch [5/5] - Train Loss: 271.1723 - Val Loss: 311.2592 - Validation RMSE: 17.6425
+
+
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/20] - Train Loss: 266.9497 - Val Loss: 107.6494 - Val RMSE: 10.3754 - LR: 0.000222
+Epoch [2/20] - Train Loss: 104.9977 - Val Loss: 104.4482 - Val RMSE: 10.2200 - LR: 0.000222
+Epoch [3/20] - Train Loss: 94.1414 - Val Loss: 96.7948 - Val RMSE: 9.8384 - LR: 0.000222
+Epoch [4/20] - Train Loss: 86.3273 - Val Loss: 91.2428 - Val RMSE: 9.5521 - LR: 0.000222
+Epoch [5/20] - Train Loss: 79.4198 - Val Loss: 91.5457 - Val RMSE: 9.5679 - LR: 0.000222
+Epoch [6/20] - Train Loss: 64.4835 - Val Loss: 81.0825 - Val RMSE: 9.0046 - LR: 0.000022
+Epoch [7/20] - Train Loss: 59.8270 - Val Loss: 79.9502 - Val RMSE: 8.9415 - LR: 0.000022
+Epoch [8/20] - Train Loss: 57.1778 - Val Loss: 80.8204 - Val RMSE: 8.9900 - LR: 0.000022
+Epoch [9/20] - Train Loss: 54.5634 - Val Loss: 78.3584 - Val RMSE: 8.8520 - LR: 0.000022
+Epoch [10/20] - Train Loss: 52.4548 - Val Loss: 78.2277 - Val RMSE: 8.8446 - LR: 0.000022
+Epoch [11/20] - Train Loss: 49.3578 - Val Loss: 78.3123 - Val RMSE: 8.8494 - LR: 0.000002
+Epoch [12/20] - Train Loss: 50.0581 - Val Loss: 77.9680 - Val RMSE: 8.8299 - LR: 0.000002
+Epoch [13/20] - Train Loss: 49.1813 - Val Loss: 77.6294 - Val RMSE: 8.8108 - LR: 0.000002
+Epoch [14/20] - Train Loss: 49.1166 - Val Loss: 80.3844 - Val RMSE: 8.9657 - LR: 0.000002
+Epoch [15/20] - Train Loss: 49.2272 - Val Loss: 77.6143 - Val RMSE: 8.8099 - LR: 0.000002
+Epoch [16/20] - Train Loss: 48.2395 - Val Loss: 77.9883 - Val RMSE: 8.8311 - LR: 0.000000
+Epoch [17/20] - Train Loss: 49.0205 - Val Loss: 78.8349 - Val RMSE: 8.8789 - LR: 0.000000
+Epoch [18/20] - Train Loss: 49.2996 - Val Loss: 77.2745 - Val RMSE: 8.7906 - LR: 0.000000
+Epoch [19/20] - Train Loss: 48.3444 - Val Loss: 78.1020 - Val RMSE: 8.8375 - LR: 0.000000
+Epoch [20/20] - Train Loss: 48.7334 - Val Loss: 78.5607 - Val RMSE: 8.8634 - LR: 0.000000
+Best model (Val RMSE=8.7906) saved to output/checkpoints/fold_0.pth
+
+Fold 2/5
+Found 16781 valid rows  Skipped 0 rows due to missing files.
+Found 4195 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/20] - Train Loss: 280.6736 - Val Loss: 103.6055 - Val RMSE: 10.1787 - LR: 0.000222
+Epoch [2/20] - Train Loss: 104.9074 - Val Loss: 102.8875 - Val RMSE: 10.1433 - LR: 0.000222
+Epoch [3/20] - Train Loss: 95.0823 - Val Loss: 101.0547 - Val RMSE: 10.0526 - LR: 0.000222
+Epoch [4/20] - Train Loss: 87.0360 - Val Loss: 89.7416 - Val RMSE: 9.4732 - LR: 0.000222
+Epoch [5/20] - Train Loss: 79.5410 - Val Loss: 119.8461 - Val RMSE: 10.9474 - LR: 0.000222
+Epoch [6/20] - Train Loss: 63.5739 - Val Loss: 84.0534 - Val RMSE: 9.1681 - LR: 0.000022
+Epoch [7/20] - Train Loss: 59.0604 - Val Loss: 85.1614 - Val RMSE: 9.2283 - LR: 0.000022
+Epoch [8/20] - Train Loss: 57.5119 - Val Loss: 81.6829 - Val RMSE: 9.0379 - LR: 0.000022
+Epoch [9/20] - Train Loss: 54.0299 - Val Loss: 81.4601 - Val RMSE: 9.0255 - LR: 0.000022
+Epoch [10/20] - Train Loss: 52.6761 - Val Loss: 80.9924 - Val RMSE: 8.9996 - LR: 0.000022
+Epoch [11/20] - Train Loss: 50.5149 - Val Loss: 81.4051 - Val RMSE: 9.0225 - LR: 0.000002
+Epoch [12/20] - Train Loss: 49.6875 - Val Loss: 81.0100 - Val RMSE: 9.0006 - LR: 0.000002
+Epoch [13/20] - Train Loss: 49.9564 - Val Loss: 81.4114 - Val RMSE: 9.0228 - LR: 0.000002
+Early stopping triggered!
+Best model (Val RMSE=8.9996) saved to output/checkpoints/fold_1.pth
+
+Fold 3/5
+Found 16781 valid rows  Skipped 0 rows due to missing files.
+Found 4195 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/20] - Train Loss: 252.3989 - Val Loss: 103.6289 - Val RMSE: 10.1798 - LR: 0.000222
+Epoch [2/20] - Train Loss: 105.2375 - Val Loss: 103.2778 - Val RMSE: 10.1626 - LR: 0.000222
+Epoch [3/20] - Train Loss: 93.5571 - Val Loss: 114.3348 - Val RMSE: 10.6927 - LR: 0.000222
+Epoch [4/20] - Train Loss: 85.5002 - Val Loss: 90.6024 - Val RMSE: 9.5185 - LR: 0.000222
+Epoch [5/20] - Train Loss: 80.5484 - Val Loss: 89.7388 - Val RMSE: 9.4731 - LR: 0.000222
+Epoch [6/20] - Train Loss: 64.1935 - Val Loss: 79.5504 - Val RMSE: 8.9191 - LR: 0.000022
+Epoch [7/20] - Train Loss: 58.7645 - Val Loss: 77.4958 - Val RMSE: 8.8032 - LR: 0.000022
+Epoch [8/20] - Train Loss: 56.6543 - Val Loss: 78.6438 - Val RMSE: 8.8681 - LR: 0.000022
+Epoch [9/20] - Train Loss: 53.6156 - Val Loss: 78.8018 - Val RMSE: 8.8770 - LR: 0.000022
+Epoch [10/20] - Train Loss: 52.6874 - Val Loss: 77.7559 - Val RMSE: 8.8179 - LR: 0.000022
+Early stopping triggered!
+Best model (Val RMSE=8.8032) saved to output/checkpoints/fold_2.pth
+
+Fold 4/5
+Found 16781 valid rows  Skipped 0 rows due to missing files.
+Found 4195 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/20] - Train Loss: 267.7821 - Val Loss: 142.0995 - Val RMSE: 11.9205 - LR: 0.000222
+Epoch [2/20] - Train Loss: 104.0323 - Val Loss: 107.3637 - Val RMSE: 10.3616 - LR: 0.000222
+Epoch [3/20] - Train Loss: 93.3340 - Val Loss: 99.7522 - Val RMSE: 9.9876 - LR: 0.000222
+Epoch [4/20] - Train Loss: 87.7814 - Val Loss: 102.1419 - Val RMSE: 10.1065 - LR: 0.000222
+Epoch [5/20] - Train Loss: 78.8061 - Val Loss: 94.9898 - Val RMSE: 9.7463 - LR: 0.000222
+Epoch [6/20] - Train Loss: 63.7048 - Val Loss: 82.4146 - Val RMSE: 9.0783 - LR: 0.000022
+Epoch [7/20] - Train Loss: 59.2455 - Val Loss: 80.9489 - Val RMSE: 8.9972 - LR: 0.000022
+Epoch [8/20] - Train Loss: 56.2758 - Val Loss: 81.1360 - Val RMSE: 9.0076 - LR: 0.000022
+Epoch [9/20] - Train Loss: 54.0931 - Val Loss: 79.1147 - Val RMSE: 8.8946 - LR: 0.000022
+Epoch [10/20] - Train Loss: 52.7354 - Val Loss: 80.3196 - Val RMSE: 8.9621 - LR: 0.000022
+Epoch [11/20] - Train Loss: 50.3071 - Val Loss: 80.0360 - Val RMSE: 8.9463 - LR: 0.000002
+Epoch [12/20] - Train Loss: 49.6838 - Val Loss: 79.1863 - Val RMSE: 8.8987 - LR: 0.000002
+Early stopping triggered!
+Best model (Val RMSE=8.8946) saved to output/checkpoints/fold_3.pth
+
+Fold 5/5
+Found 16781 valid rows  Skipped 0 rows due to missing files.
+Found 4195 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/20] - Train Loss: 258.0185 - Val Loss: 104.3775 - Val RMSE: 10.2165 - LR: 0.000222
+Epoch [2/20] - Train Loss: 105.1887 - Val Loss: 100.4334 - Val RMSE: 10.0216 - LR: 0.000222
+Epoch [3/20] - Train Loss: 92.0153 - Val Loss: 109.2925 - Val RMSE: 10.4543 - LR: 0.000222
+Epoch [4/20] - Train Loss: 84.8532 - Val Loss: 95.7681 - Val RMSE: 9.7861 - LR: 0.000222
+Epoch [5/20] - Train Loss: 79.7082 - Val Loss: 95.7466 - Val RMSE: 9.7850 - LR: 0.000222
+Epoch [6/20] - Train Loss: 62.8098 - Val Loss: 86.3494 - Val RMSE: 9.2924 - LR: 0.000022
+Epoch [7/20] - Train Loss: 59.0715 - Val Loss: 84.1389 - Val RMSE: 9.1727 - LR: 0.000022
+Epoch [8/20] - Train Loss: 56.3707 - Val Loss: 82.2673 - Val RMSE: 9.0701 - LR: 0.000022
+Epoch [9/20] - Train Loss: 54.3811 - Val Loss: 81.5084 - Val RMSE: 9.0282 - LR: 0.000022
+Epoch [10/20] - Train Loss: 52.6083 - Val Loss: 83.6190 - Val RMSE: 9.1443 - LR: 0.000022
+Epoch [11/20] - Train Loss: 50.1928 - Val Loss: 82.2817 - Val RMSE: 9.0709 - LR: 0.000002
+Epoch [12/20] - Train Loss: 49.0441 - Val Loss: 81.9565 - Val RMSE: 9.0530 - LR: 0.000002
+Early stopping triggered!
+Best model (Val RMSE=9.0282) saved to output/checkpoints/fold_4.pth
+
+Cross-Validation average RMSE: 8.9032
+Cross-validation done. Average RMSE: 8.903237653548938
+Found 20976 valid rows  Skipped 0 rows due to missing files.
+Full dataset size: 20976
+
+
+
+
+Trial status: 10 TERMINATED
+Current time: 2025-03-02 19:24:00. Total running time: 2hr 14min 54s
+Logical resource usage: 4.0/22 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:RTX)
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Trial name                 status                lr     batch_size     early_stop_patience     epochs     iter     total time (s)       rmse │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ train_fn_ray_b8a1d_00000   TERMINATED   1.03847e-05              8                       5         30        1           1612.72     7.62819 │
+│ train_fn_ray_b8a1d_00001   TERMINATED   2.32795e-05             64                       2         25        1            551.74     9.96951 │
+│ train_fn_ray_b8a1d_00002   TERMINATED   3.57331e-05            128                       3         25        1            759.89    15.0088  │
+│ train_fn_ray_b8a1d_00003   TERMINATED   6.15462e-05            128                       2         25        1            583.443    7.71476 │
+│ train_fn_ray_b8a1d_00004   TERMINATED   0.000411577             64                       2         25        1            464.219    7.05116 │
+│ train_fn_ray_b8a1d_00005   TERMINATED   0.000712072              8                       5         20        1           1350.53     7.68896 │
+│ train_fn_ray_b8a1d_00006   TERMINATED   2.51214e-05             16                       3         25        1            746.963    7.61563 │
+│ train_fn_ray_b8a1d_00007   TERMINATED   0.000130651             64                       4         30        1            649.355    6.94396 │
+│ train_fn_ray_b8a1d_00008   TERMINATED   0.000144759            128                       3         15        1            639.703    7.11132 │
+│ train_fn_ray_b8a1d_00009   TERMINATED   0.0002169              128                       4         15        1            687.336    6.9934  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+Ray Tune Tuning Results
+Best trial config: {'lr': 0.00013065143261376387, 'batch_size': 64, 'early_stop_patience': 4, 'epochs': 30}
+Best trial final RMSE: 6.9440
+Best config from Ray Tune: {'lr': 0.00013065143261376387, 'batch_size': 64, 'early_stop_patience': 4, 'epochs': 30}
+Best RMSE from Ray Tune: 6.943959043429252
+Found 36824 valid rows  Skipped 0 rows due to missing files.
+2025-03-02 19:24:03,568 [INFO] Full dataset size: 36824
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 19:24:55,786 [INFO] Epoch [1/30] - Train Loss: 613.3147 - Val Loss: 119.1458 - Val RMSE: 10.9154 - LR: 0.000131
+2025-03-02 19:25:47,776 [INFO] Epoch [2/30] - Train Loss: 80.2245 - Val Loss: 68.3203 - Val RMSE: 8.2656 - LR: 0.000131
+2025-03-02 19:26:38,376 [INFO] Epoch [3/30] - Train Loss: 40.7953 - Val Loss: 61.0203 - Val RMSE: 7.8116 - LR: 0.000131
+2025-03-02 19:27:31,326 [INFO] Epoch [4/30] - Train Loss: 25.4282 - Val Loss: 61.8763 - Val RMSE: 7.8661 - LR: 0.000131
+2025-03-02 19:28:23,166 [INFO] Epoch [5/30] - Train Loss: 16.7546 - Val Loss: 62.7930 - Val RMSE: 7.9242 - LR: 0.000131
+2025-03-02 19:29:15,786 [INFO] Epoch [6/30] - Train Loss: 9.8078 - Val Loss: 49.8315 - Val RMSE: 7.0591 - LR: 0.000013
+2025-03-02 19:30:07,308 [INFO] Epoch [7/30] - Train Loss: 7.6183 - Val Loss: 49.5680 - Val RMSE: 7.0405 - LR: 0.000013
+2025-03-02 19:30:58,416 [INFO] Epoch [8/30] - Train Loss: 6.0875 - Val Loss: 49.4924 - Val RMSE: 7.0351 - LR: 0.000013
+2025-03-02 19:31:49,538 [INFO] Epoch [9/30] - Train Loss: 5.3227 - Val Loss: 49.3086 - Val RMSE: 7.0220 - LR: 0.000013
+2025-03-02 19:32:41,567 [INFO] Epoch [10/30] - Train Loss: 4.6825 - Val Loss: 49.5767 - Val RMSE: 7.0411 - LR: 0.000013
+2025-03-02 19:33:32,576 [INFO] Epoch [11/30] - Train Loss: 3.8540 - Val Loss: 49.2404 - Val RMSE: 7.0172 - LR: 0.000001
+2025-03-02 19:34:25,011 [INFO] Epoch [12/30] - Train Loss: 3.8168 - Val Loss: 49.1969 - Val RMSE: 7.0140 - LR: 0.000001
+2025-03-02 19:35:16,250 [INFO] Epoch [13/30] - Train Loss: 3.7944 - Val Loss: 49.5264 - Val RMSE: 7.0375 - LR: 0.000001
+2025-03-02 19:36:07,739 [INFO] Epoch [14/30] - Train Loss: 3.5803 - Val Loss: 49.5481 - Val RMSE: 7.0390 - LR: 0.000001
+2025-03-02 19:36:59,121 [INFO] Epoch [15/30] - Train Loss: 3.5317 - Val Loss: 49.6631 - Val RMSE: 7.0472 - LR: 0.000001
+2025-03-02 19:37:49,270 [INFO] Epoch [16/30] - Train Loss: 3.3199 - Val Loss: 49.2332 - Val RMSE: 7.0166 - LR: 0.000000
+2025-03-02 19:37:49,270 [INFO] Early stopping triggered!
+2025-03-02 19:37:49,349 [INFO] Best model (Val RMSE=7.0140) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+Final model retrained. RMSE: 7.0140
+2025-03-02 19:37:49,429 [INFO] Total samples in cleaned dataset: 36824
+2025-03-02 19:37:49,430 [INFO] 
+Fold 1/5
+Found 29459 valid rows  Skipped 0 rows due to missing files.
+Found 7365 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 19:38:43,929 [INFO] Epoch [1/30] - Train Loss: 535.4298 - Val Loss: 188.4702 - Val RMSE: 13.7284 - LR: 0.000131
+2025-03-02 19:39:34,899 [INFO] Epoch [2/30] - Train Loss: 108.8820 - Val Loss: 106.7049 - Val RMSE: 10.3298 - LR: 0.000131
+2025-03-02 19:40:26,049 [INFO] Epoch [3/30] - Train Loss: 91.3128 - Val Loss: 97.8288 - Val RMSE: 9.8908 - LR: 0.000131
+2025-03-02 19:41:17,049 [INFO] Epoch [4/30] - Train Loss: 83.1319 - Val Loss: 90.5628 - Val RMSE: 9.5165 - LR: 0.000131
+2025-03-02 19:42:08,002 [INFO] Epoch [5/30] - Train Loss: 78.3065 - Val Loss: 93.6978 - Val RMSE: 9.6798 - LR: 0.000131
+2025-03-02 19:42:58,977 [INFO] Epoch [6/30] - Train Loss: 67.4179 - Val Loss: 79.6333 - Val RMSE: 8.9237 - LR: 0.000013
+2025-03-02 19:43:50,522 [INFO] Epoch [7/30] - Train Loss: 63.1898 - Val Loss: 78.2828 - Val RMSE: 8.8478 - LR: 0.000013
+2025-03-02 19:44:41,507 [INFO] Epoch [8/30] - Train Loss: 62.4188 - Val Loss: 79.2482 - Val RMSE: 8.9021 - LR: 0.000013
+2025-03-02 19:45:32,367 [INFO] Epoch [9/30] - Train Loss: 60.0852 - Val Loss: 76.8516 - Val RMSE: 8.7665 - LR: 0.000013
+2025-03-02 19:46:22,942 [INFO] Epoch [10/30] - Train Loss: 59.2596 - Val Loss: 75.8680 - Val RMSE: 8.7102 - LR: 0.000013
+2025-03-02 19:47:14,367 [INFO] Epoch [11/30] - Train Loss: 57.6151 - Val Loss: 75.5681 - Val RMSE: 8.6930 - LR: 0.000001
+2025-03-02 19:48:04,631 [INFO] Epoch [12/30] - Train Loss: 57.0581 - Val Loss: 76.1579 - Val RMSE: 8.7268 - LR: 0.000001
+2025-03-02 19:48:56,657 [INFO] Epoch [13/30] - Train Loss: 57.1139 - Val Loss: 75.8970 - Val RMSE: 8.7119 - LR: 0.000001
+2025-03-02 19:49:48,157 [INFO] Epoch [14/30] - Train Loss: 56.4503 - Val Loss: 75.5213 - Val RMSE: 8.6903 - LR: 0.000001
+2025-03-02 19:50:39,134 [INFO] Epoch [15/30] - Train Loss: 56.9029 - Val Loss: 75.5992 - Val RMSE: 8.6948 - LR: 0.000001
+2025-03-02 19:51:31,233 [INFO] Epoch [16/30] - Train Loss: 57.2108 - Val Loss: 76.8847 - Val RMSE: 8.7684 - LR: 0.000000
+2025-03-02 19:52:21,455 [INFO] Epoch [17/30] - Train Loss: 56.6471 - Val Loss: 75.5522 - Val RMSE: 8.6921 - LR: 0.000000
+2025-03-02 19:52:21,455 [INFO] Early stopping triggered!
+2025-03-02 19:52:21,541 [INFO] Best model (Val RMSE=8.6903) saved to output/checkpoints/fold_0.pth
+2025-03-02 19:52:21,548 [INFO] 
+Fold 2/5
+Found 29459 valid rows  Skipped 0 rows due to missing files.
+Found 7365 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 19:53:16,648 [INFO] Epoch [1/30] - Train Loss: 548.2946 - Val Loss: 209.3073 - Val RMSE: 14.4675 - LR: 0.000131
+2025-03-02 19:54:07,831 [INFO] Epoch [2/30] - Train Loss: 111.3582 - Val Loss: 95.8342 - Val RMSE: 9.7895 - LR: 0.000131
+2025-03-02 19:55:00,533 [INFO] Epoch [3/30] - Train Loss: 93.3176 - Val Loss: 87.6258 - Val RMSE: 9.3609 - LR: 0.000131
+2025-03-02 19:55:52,163 [INFO] Epoch [4/30] - Train Loss: 85.5389 - Val Loss: 88.7953 - Val RMSE: 9.4231 - LR: 0.000131
+2025-03-02 19:56:42,342 [INFO] Epoch [5/30] - Train Loss: 80.8928 - Val Loss: 87.7507 - Val RMSE: 9.3675 - LR: 0.000131
+2025-03-02 19:57:33,518 [INFO] Epoch [6/30] - Train Loss: 68.3637 - Val Loss: 75.5550 - Val RMSE: 8.6922 - LR: 0.000013
+2025-03-02 19:58:25,488 [INFO] Epoch [7/30] - Train Loss: 65.3522 - Val Loss: 74.2673 - Val RMSE: 8.6178 - LR: 0.000013
+2025-03-02 19:59:17,479 [INFO] Epoch [8/30] - Train Loss: 63.2584 - Val Loss: 74.9006 - Val RMSE: 8.6545 - LR: 0.000013
+2025-03-02 20:00:08,055 [INFO] Epoch [9/30] - Train Loss: 62.2835 - Val Loss: 73.6655 - Val RMSE: 8.5829 - LR: 0.000013
+2025-03-02 20:00:59,448 [INFO] Epoch [10/30] - Train Loss: 60.6937 - Val Loss: 72.3861 - Val RMSE: 8.5080 - LR: 0.000013
+2025-03-02 20:01:50,218 [INFO] Epoch [11/30] - Train Loss: 59.4316 - Val Loss: 72.3104 - Val RMSE: 8.5036 - LR: 0.000001
+2025-03-02 20:02:41,448 [INFO] Epoch [12/30] - Train Loss: 58.7809 - Val Loss: 71.8203 - Val RMSE: 8.4747 - LR: 0.000001
+2025-03-02 20:03:32,208 [INFO] Epoch [13/30] - Train Loss: 59.0865 - Val Loss: 72.0583 - Val RMSE: 8.4887 - LR: 0.000001
+2025-03-02 20:04:22,943 [INFO] Epoch [14/30] - Train Loss: 58.7237 - Val Loss: 71.7758 - Val RMSE: 8.4721 - LR: 0.000001
+2025-03-02 20:05:14,078 [INFO] Epoch [15/30] - Train Loss: 57.6565 - Val Loss: 71.6413 - Val RMSE: 8.4641 - LR: 0.000001
+2025-03-02 20:06:05,312 [INFO] Epoch [16/30] - Train Loss: 57.5773 - Val Loss: 72.1769 - Val RMSE: 8.4957 - LR: 0.000000
+2025-03-02 20:06:55,768 [INFO] Epoch [17/30] - Train Loss: 58.3107 - Val Loss: 72.5386 - Val RMSE: 8.5170 - LR: 0.000000
+2025-03-02 20:07:47,078 [INFO] Epoch [18/30] - Train Loss: 58.4189 - Val Loss: 72.7133 - Val RMSE: 8.5272 - LR: 0.000000
+2025-03-02 20:07:47,078 [INFO] Early stopping triggered!
+2025-03-02 20:07:47,165 [INFO] Best model (Val RMSE=8.4641) saved to output/checkpoints/fold_1.pth
+2025-03-02 20:07:47,171 [INFO] 
+Fold 3/5
+Found 29459 valid rows  Skipped 0 rows due to missing files.
+Found 7365 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 20:08:42,665 [INFO] Epoch [1/30] - Train Loss: 619.0687 - Val Loss: 262.9944 - Val RMSE: 16.2171 - LR: 0.000131
+2025-03-02 20:09:33,942 [INFO] Epoch [2/30] - Train Loss: 118.3133 - Val Loss: 99.0112 - Val RMSE: 9.9504 - LR: 0.000131
+2025-03-02 20:10:25,385 [INFO] Epoch [3/30] - Train Loss: 94.4451 - Val Loss: 93.2229 - Val RMSE: 9.6552 - LR: 0.000131
+2025-03-02 20:11:15,868 [INFO] Epoch [4/30] - Train Loss: 85.5766 - Val Loss: 88.5740 - Val RMSE: 9.4114 - LR: 0.000131
+2025-03-02 20:12:07,102 [INFO] Epoch [5/30] - Train Loss: 79.8992 - Val Loss: 84.5119 - Val RMSE: 9.1930 - LR: 0.000131
+2025-03-02 20:12:59,488 [INFO] Epoch [6/30] - Train Loss: 69.6880 - Val Loss: 81.3681 - Val RMSE: 9.0204 - LR: 0.000013
+2025-03-02 20:13:50,378 [INFO] Epoch [7/30] - Train Loss: 65.9861 - Val Loss: 76.9220 - Val RMSE: 8.7705 - LR: 0.000013
+2025-03-02 20:14:41,968 [INFO] Epoch [8/30] - Train Loss: 64.7618 - Val Loss: 77.9917 - Val RMSE: 8.8313 - LR: 0.000013
+2025-03-02 20:15:33,248 [INFO] Epoch [9/30] - Train Loss: 62.1423 - Val Loss: 76.3511 - Val RMSE: 8.7379 - LR: 0.000013
+2025-03-02 20:16:24,311 [INFO] Epoch [10/30] - Train Loss: 60.8041 - Val Loss: 76.3382 - Val RMSE: 8.7372 - LR: 0.000013
+2025-03-02 20:17:15,048 [INFO] Epoch [11/30] - Train Loss: 59.4832 - Val Loss: 76.6574 - Val RMSE: 8.7554 - LR: 0.000001
+2025-03-02 20:18:06,415 [INFO] Epoch [12/30] - Train Loss: 59.6730 - Val Loss: 76.2375 - Val RMSE: 8.7314 - LR: 0.000001
+2025-03-02 20:18:57,329 [INFO] Epoch [13/30] - Train Loss: 59.6244 - Val Loss: 76.5040 - Val RMSE: 8.7467 - LR: 0.000001
+2025-03-02 20:19:48,629 [INFO] Epoch [14/30] - Train Loss: 58.8287 - Val Loss: 75.4236 - Val RMSE: 8.6847 - LR: 0.000001
+2025-03-02 20:20:39,064 [INFO] Epoch [15/30] - Train Loss: 59.5739 - Val Loss: 75.3513 - Val RMSE: 8.6805 - LR: 0.000001
+2025-03-02 20:21:29,904 [INFO] Epoch [16/30] - Train Loss: 58.4729 - Val Loss: 76.4682 - Val RMSE: 8.7446 - LR: 0.000000
+2025-03-02 20:22:20,455 [INFO] Epoch [17/30] - Train Loss: 58.5808 - Val Loss: 75.1377 - Val RMSE: 8.6682 - LR: 0.000000
+2025-03-02 20:23:11,655 [INFO] Epoch [18/30] - Train Loss: 59.1783 - Val Loss: 75.4695 - Val RMSE: 8.6873 - LR: 0.000000
+2025-03-02 20:24:02,709 [INFO] Epoch [19/30] - Train Loss: 58.4003 - Val Loss: 75.4322 - Val RMSE: 8.6852 - LR: 0.000000
+2025-03-02 20:24:53,944 [INFO] Epoch [20/30] - Train Loss: 58.0919 - Val Loss: 75.7096 - Val RMSE: 8.7011 - LR: 0.000000
+2025-03-02 20:24:53,944 [INFO] Early stopping triggered!
+2025-03-02 20:24:54,029 [INFO] Best model (Val RMSE=8.6682) saved to output/checkpoints/fold_2.pth
+2025-03-02 20:24:54,034 [INFO] 
+Fold 4/5
+Found 29459 valid rows  Skipped 0 rows due to missing files.
+Found 7365 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 20:25:48,889 [INFO] Epoch [1/30] - Train Loss: 607.2895 - Val Loss: 195.0077 - Val RMSE: 13.9645 - LR: 0.000131
+2025-03-02 20:26:39,960 [INFO] Epoch [2/30] - Train Loss: 119.3902 - Val Loss: 124.1478 - Val RMSE: 11.1422 - LR: 0.000131
+2025-03-02 20:27:30,935 [INFO] Epoch [3/30] - Train Loss: 92.9887 - Val Loss: 95.8117 - Val RMSE: 9.7883 - LR: 0.000131
+2025-03-02 20:28:22,095 [INFO] Epoch [4/30] - Train Loss: 85.8642 - Val Loss: 99.2392 - Val RMSE: 9.9619 - LR: 0.000131
+2025-03-02 20:29:13,273 [INFO] Epoch [5/30] - Train Loss: 78.8852 - Val Loss: 85.9748 - Val RMSE: 9.2723 - LR: 0.000131
+2025-03-02 20:30:04,764 [INFO] Epoch [6/30] - Train Loss: 68.5451 - Val Loss: 80.7686 - Val RMSE: 8.9871 - LR: 0.000013
+2025-03-02 20:30:55,641 [INFO] Epoch [7/30] - Train Loss: 65.3394 - Val Loss: 80.3441 - Val RMSE: 8.9635 - LR: 0.000013
+2025-03-02 20:31:46,648 [INFO] Epoch [8/30] - Train Loss: 63.6514 - Val Loss: 79.5656 - Val RMSE: 8.9200 - LR: 0.000013
+2025-03-02 20:32:37,289 [INFO] Epoch [9/30] - Train Loss: 60.9767 - Val Loss: 80.0880 - Val RMSE: 8.9492 - LR: 0.000013
+2025-03-02 20:33:28,652 [INFO] Epoch [10/30] - Train Loss: 60.3108 - Val Loss: 78.9369 - Val RMSE: 8.8846 - LR: 0.000013
+2025-03-02 20:34:20,350 [INFO] Epoch [11/30] - Train Loss: 58.6858 - Val Loss: 78.0211 - Val RMSE: 8.8330 - LR: 0.000001
+2025-03-02 20:35:10,569 [INFO] Epoch [12/30] - Train Loss: 58.3523 - Val Loss: 77.8241 - Val RMSE: 8.8218 - LR: 0.000001
+2025-03-02 20:36:01,579 [INFO] Epoch [13/30] - Train Loss: 58.2666 - Val Loss: 77.9835 - Val RMSE: 8.8308 - LR: 0.000001
+2025-03-02 20:36:53,869 [INFO] Epoch [14/30] - Train Loss: 57.8708 - Val Loss: 77.6222 - Val RMSE: 8.8103 - LR: 0.000001
+2025-03-02 20:37:44,349 [INFO] Epoch [15/30] - Train Loss: 57.8481 - Val Loss: 77.5129 - Val RMSE: 8.8041 - LR: 0.000001
+2025-03-02 20:38:36,259 [INFO] Epoch [16/30] - Train Loss: 57.5757 - Val Loss: 77.4575 - Val RMSE: 8.8010 - LR: 0.000000
+2025-03-02 20:39:27,150 [INFO] Epoch [17/30] - Train Loss: 57.7149 - Val Loss: 77.7515 - Val RMSE: 8.8177 - LR: 0.000000
+2025-03-02 20:40:17,574 [INFO] Epoch [18/30] - Train Loss: 57.9841 - Val Loss: 79.6389 - Val RMSE: 8.9241 - LR: 0.000000
+2025-03-02 20:41:08,499 [INFO] Epoch [19/30] - Train Loss: 57.9649 - Val Loss: 77.6503 - Val RMSE: 8.8119 - LR: 0.000000
+2025-03-02 20:41:08,500 [INFO] Early stopping triggered!
+2025-03-02 20:41:08,582 [INFO] Best model (Val RMSE=8.8010) saved to output/checkpoints/fold_3.pth
+2025-03-02 20:41:08,588 [INFO] 
+Fold 5/5
+Found 29460 valid rows  Skipped 0 rows due to missing files.
+Found 7364 valid rows  Skipped 0 rows due to missing files.
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 20:42:02,597 [INFO] Epoch [1/30] - Train Loss: 602.2527 - Val Loss: 216.3798 - Val RMSE: 14.7099 - LR: 0.000131
+2025-03-02 20:42:52,850 [INFO] Epoch [2/30] - Train Loss: 116.3313 - Val Loss: 115.1259 - Val RMSE: 10.7297 - LR: 0.000131
+2025-03-02 20:43:43,680 [INFO] Epoch [3/30] - Train Loss: 92.6527 - Val Loss: 92.0882 - Val RMSE: 9.5963 - LR: 0.000131
+2025-03-02 20:44:34,124 [INFO] Epoch [4/30] - Train Loss: 84.4449 - Val Loss: 91.1800 - Val RMSE: 9.5488 - LR: 0.000131
+2025-03-02 20:45:24,444 [INFO] Epoch [5/30] - Train Loss: 78.2843 - Val Loss: 87.0140 - Val RMSE: 9.3281 - LR: 0.000131
+2025-03-02 20:46:16,204 [INFO] Epoch [6/30] - Train Loss: 68.0908 - Val Loss: 79.6035 - Val RMSE: 8.9221 - LR: 0.000013
+2025-03-02 20:47:07,145 [INFO] Epoch [7/30] - Train Loss: 64.8865 - Val Loss: 81.1086 - Val RMSE: 9.0060 - LR: 0.000013
+2025-03-02 20:47:58,094 [INFO] Epoch [8/30] - Train Loss: 63.3591 - Val Loss: 77.2215 - Val RMSE: 8.7876 - LR: 0.000013
+2025-03-02 20:48:51,770 [INFO] Epoch [9/30] - Train Loss: 61.2873 - Val Loss: 75.8509 - Val RMSE: 8.7092 - LR: 0.000013
+2025-03-02 20:49:44,435 [INFO] Epoch [10/30] - Train Loss: 59.8707 - Val Loss: 75.4410 - Val RMSE: 8.6857 - LR: 0.000013
+2025-03-02 20:50:37,520 [INFO] Epoch [11/30] - Train Loss: 58.5246 - Val Loss: 75.7616 - Val RMSE: 8.7041 - LR: 0.000001
+2025-03-02 20:51:29,370 [INFO] Epoch [12/30] - Train Loss: 59.2268 - Val Loss: 75.5635 - Val RMSE: 8.6927 - LR: 0.000001
+2025-03-02 20:52:21,162 [INFO] Epoch [13/30] - Train Loss: 58.3823 - Val Loss: 74.9081 - Val RMSE: 8.6549 - LR: 0.000001
+2025-03-02 20:53:12,682 [INFO] Epoch [14/30] - Train Loss: 57.9008 - Val Loss: 74.7467 - Val RMSE: 8.6456 - LR: 0.000001
+2025-03-02 20:54:05,532 [INFO] Epoch [15/30] - Train Loss: 57.8065 - Val Loss: 75.3463 - Val RMSE: 8.6802 - LR: 0.000001
+2025-03-02 20:54:57,363 [INFO] Epoch [16/30] - Train Loss: 57.4164 - Val Loss: 75.1890 - Val RMSE: 8.6712 - LR: 0.000000
+2025-03-02 20:55:49,373 [INFO] Epoch [17/30] - Train Loss: 57.2604 - Val Loss: 75.4184 - Val RMSE: 8.6844 - LR: 0.000000
+2025-03-02 20:55:49,378 [INFO] Early stopping triggered!
+2025-03-02 20:55:49,466 [INFO] Best model (Val RMSE=8.6456) saved to output/checkpoints/fold_4.pth
+2025-03-02 20:55:49,471 [INFO] 
+Cross-Validation average RMSE: 8.6538
+Cross-validation done. Average RMSE: 8.653845173359676
+Found 36824 valid rows  Skipped 0 rows due to missing files.
+2025-03-02 20:55:53,140 [INFO] Full dataset size: 36824
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-03-02 20:56:46,050 [INFO] Epoch [1/30] - Train Loss: 559.7966 - Val Loss: 131.5040 - Val RMSE: 11.4675 - LR: 0.000131
+2025-03-02 20:57:39,376 [INFO] Epoch [2/30] - Train Loss: 74.6112 - Val Loss: 68.5325 - Val RMSE: 8.2784 - LR: 0.000131
+2025-03-02 20:58:31,103 [INFO] Epoch [3/30] - Train Loss: 39.7005 - Val Loss: 61.6996 - Val RMSE: 7.8549 - LR: 0.000131
+2025-03-02 20:59:23,121 [INFO] Epoch [4/30] - Train Loss: 24.8997 - Val Loss: 53.5677 - Val RMSE: 7.3190 - LR: 0.000131
+2025-03-02 21:00:14,988 [INFO] Epoch [5/30] - Train Loss: 16.3352 - Val Loss: 51.2056 - Val RMSE: 7.1558 - LR: 0.000131
+2025-03-02 21:01:59,691 [INFO] Epoch [7/30] - Train Loss: 7.7260 - Val Loss: 48.8113 - Val RMSE: 6.9865 - LR: 0.000013
+2025-03-02 21:01:59,691 [INFO] Epoch [7/30] - Train Loss: 7.7260 - Val Loss: 48.8113 - Val RMSE: 6.9865 - LR: 0.000013
+2025-03-02 21:02:54,734 [INFO] Epoch [8/30] - Train Loss: 6.5838 - Val Loss: 48.8570 - Val RMSE: 6.9898 - LR: 0.000013
+2025-03-02 21:03:51,992 [INFO] Epoch [9/30] - Train Loss: 5.6495 - Val Loss: 48.6383 - Val RMSE: 6.9741 - LR: 0.000013
+2025-03-02 21:04:46,413 [INFO] Epoch [10/30] - Train Loss: 4.8932 - Val Loss: 49.1230 - Val RMSE: 7.0088 - LR: 0.000013
+2025-03-02 21:05:43,531 [INFO] Epoch [11/30] - Train Loss: 4.3959 - Val Loss: 48.6671 - Val RMSE: 6.9762 - LR: 0.000001
+2025-03-02 21:06:38,151 [INFO] Epoch [12/30] - Train Loss: 4.0914 - Val Loss: 48.4902 - Val RMSE: 6.9635 - LR: 0.000001
+2025-03-02 21:07:34,377 [INFO] Epoch [13/30] - Train Loss: 4.0026 - Val Loss: 48.8413 - Val RMSE: 6.9887 - LR: 0.000001
+2025-03-02 21:08:30,751 [INFO] Epoch [14/30] - Train Loss: 3.8867 - Val Loss: 48.5108 - Val RMSE: 6.9650 - LR: 0.000001
+2025-03-02 21:09:26,436 [INFO] Epoch [15/30] - Train Loss: 3.9696 - Val Loss: 48.9347 - Val RMSE: 6.9953 - LR: 0.000001
+2025-03-02 21:09:26,436 [INFO] Early stopping triggered!
+2025-03-02 21:09:26,537 [INFO] Best model (Val RMSE=6.9635) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+Final model single-run RMSE: 6.963488822103445
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\.venv\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Submission file saved at C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\submission.csv
+Inference complete. Submission file saved at: C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\submission.csv
+PS C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction> 
+
+
+here are the logs since they get ignored...
+
+2025-03-02 15:12:16,952 [INFO] Total samples in cleaned dataset: 36824
+2025-03-02 15:12:16,954 [INFO] 
+Fold 1/5
+2025-03-02 15:13:26,225 [INFO] Epoch [1/20] - Train Loss: 213.6147 - Val Loss: 125.0337 - Val RMSE: 11.1818 - LR: 0.000222
+2025-03-02 15:14:33,449 [INFO] Epoch [2/20] - Train Loss: 112.8536 - Val Loss: 147.6214 - Val RMSE: 12.1500 - LR: 0.000222
+2025-03-02 15:15:40,363 [INFO] Epoch [3/20] - Train Loss: 103.2870 - Val Loss: 96.6843 - Val RMSE: 9.8328 - LR: 0.000222
+2025-03-02 15:16:50,172 [INFO] Epoch [4/20] - Train Loss: 93.6225 - Val Loss: 107.2051 - Val RMSE: 10.3540 - LR: 0.000222
+2025-03-02 15:18:02,290 [INFO] Epoch [5/20] - Train Loss: 87.1451 - Val Loss: 109.4181 - Val RMSE: 10.4603 - LR: 0.000222
+2025-03-02 15:19:13,875 [INFO] Epoch [6/20] - Train Loss: 72.2272 - Val Loss: 83.2361 - Val RMSE: 9.1234 - LR: 0.000022
+2025-03-02 15:20:23,591 [INFO] Epoch [7/20] - Train Loss: 67.5271 - Val Loss: 81.6345 - Val RMSE: 9.0352 - LR: 0.000022
+2025-03-02 15:21:32,786 [INFO] Epoch [8/20] - Train Loss: 64.9977 - Val Loss: 83.3977 - Val RMSE: 9.1322 - LR: 0.000022
+2025-03-02 15:22:42,986 [INFO] Epoch [9/20] - Train Loss: 62.8961 - Val Loss: 84.3934 - Val RMSE: 9.1866 - LR: 0.000022
+2025-03-02 15:23:52,594 [INFO] Epoch [10/20] - Train Loss: 60.7460 - Val Loss: 81.8507 - Val RMSE: 9.0471 - LR: 0.000022
+2025-03-02 15:23:52,594 [INFO] Early stopping triggered!
+2025-03-02 15:23:52,692 [INFO] Best model (Val RMSE=9.0352) saved to output/checkpoints/fold_0.pth
+2025-03-02 15:23:52,703 [INFO] 
+Fold 2/5
+2025-03-02 15:25:05,377 [INFO] Epoch [1/20] - Train Loss: 215.6029 - Val Loss: 105.3117 - Val RMSE: 10.2621 - LR: 0.000222
+2025-03-02 15:26:13,379 [INFO] Epoch [2/20] - Train Loss: 114.4584 - Val Loss: 127.8741 - Val RMSE: 11.3081 - LR: 0.000222
+2025-03-02 15:27:23,220 [INFO] Epoch [3/20] - Train Loss: 103.6816 - Val Loss: 93.4154 - Val RMSE: 9.6652 - LR: 0.000222
+2025-03-02 15:28:32,893 [INFO] Epoch [4/20] - Train Loss: 93.4459 - Val Loss: 97.6683 - Val RMSE: 9.8827 - LR: 0.000222
+2025-03-02 15:29:42,651 [INFO] Epoch [5/20] - Train Loss: 87.9699 - Val Loss: 95.8373 - Val RMSE: 9.7897 - LR: 0.000222
+2025-03-02 15:30:48,634 [INFO] Epoch [6/20] - Train Loss: 73.0774 - Val Loss: 79.0968 - Val RMSE: 8.8936 - LR: 0.000022
+2025-03-02 15:31:55,390 [INFO] Epoch [7/20] - Train Loss: 66.9827 - Val Loss: 77.6405 - Val RMSE: 8.8114 - LR: 0.000022
+2025-03-02 15:33:04,473 [INFO] Epoch [8/20] - Train Loss: 65.1019 - Val Loss: 74.6632 - Val RMSE: 8.6408 - LR: 0.000022
+2025-03-02 15:34:15,377 [INFO] Epoch [9/20] - Train Loss: 62.8841 - Val Loss: 74.7024 - Val RMSE: 8.6431 - LR: 0.000022
+2025-03-02 15:35:26,257 [INFO] Epoch [10/20] - Train Loss: 60.6787 - Val Loss: 80.4779 - Val RMSE: 8.9709 - LR: 0.000022
+2025-03-02 15:36:36,966 [INFO] Epoch [11/20] - Train Loss: 59.3499 - Val Loss: 76.2144 - Val RMSE: 8.7301 - LR: 0.000002
+2025-03-02 15:36:36,966 [INFO] Early stopping triggered!
+2025-03-02 15:36:37,073 [INFO] Best model (Val RMSE=8.6408) saved to output/checkpoints/fold_1.pth
+2025-03-02 15:36:37,081 [INFO] 
+Fold 3/5
+2025-03-02 15:37:50,338 [INFO] Epoch [1/20] - Train Loss: 208.5663 - Val Loss: 129.3900 - Val RMSE: 11.3750 - LR: 0.000222
+2025-03-02 15:39:01,123 [INFO] Epoch [2/20] - Train Loss: 114.0483 - Val Loss: 112.4988 - Val RMSE: 10.6065 - LR: 0.000222
+2025-03-02 15:40:11,004 [INFO] Epoch [3/20] - Train Loss: 103.0407 - Val Loss: 96.7052 - Val RMSE: 9.8339 - LR: 0.000222
+2025-03-02 15:41:20,522 [INFO] Epoch [4/20] - Train Loss: 95.7295 - Val Loss: 102.7913 - Val RMSE: 10.1386 - LR: 0.000222
+2025-03-02 15:42:30,587 [INFO] Epoch [5/20] - Train Loss: 89.6491 - Val Loss: 86.1373 - Val RMSE: 9.2810 - LR: 0.000222
+2025-03-02 15:43:41,110 [INFO] Epoch [6/20] - Train Loss: 72.2406 - Val Loss: 78.9901 - Val RMSE: 8.8876 - LR: 0.000022
+2025-03-02 15:44:52,577 [INFO] Epoch [7/20] - Train Loss: 67.8080 - Val Loss: 80.1044 - Val RMSE: 8.9501 - LR: 0.000022
+2025-03-02 15:46:02,372 [INFO] Epoch [8/20] - Train Loss: 65.5371 - Val Loss: 76.1605 - Val RMSE: 8.7270 - LR: 0.000022
+2025-03-02 15:47:13,779 [INFO] Epoch [9/20] - Train Loss: 63.6930 - Val Loss: 73.5930 - Val RMSE: 8.5786 - LR: 0.000022
+2025-03-02 15:48:24,715 [INFO] Epoch [10/20] - Train Loss: 61.6164 - Val Loss: 74.1738 - Val RMSE: 8.6124 - LR: 0.000022
+2025-03-02 15:49:34,385 [INFO] Epoch [11/20] - Train Loss: 59.1928 - Val Loss: 72.9826 - Val RMSE: 8.5430 - LR: 0.000002
+2025-03-02 15:50:45,246 [INFO] Epoch [12/20] - Train Loss: 59.2269 - Val Loss: 72.3889 - Val RMSE: 8.5082 - LR: 0.000002
+2025-03-02 15:51:55,153 [INFO] Epoch [13/20] - Train Loss: 58.5644 - Val Loss: 73.0083 - Val RMSE: 8.5445 - LR: 0.000002
+2025-03-02 15:53:07,057 [INFO] Epoch [14/20] - Train Loss: 58.6926 - Val Loss: 72.3628 - Val RMSE: 8.5066 - LR: 0.000002
+2025-03-02 15:54:14,825 [INFO] Epoch [15/20] - Train Loss: 58.4910 - Val Loss: 72.4347 - Val RMSE: 8.5109 - LR: 0.000002
+2025-03-02 15:55:21,673 [INFO] Epoch [16/20] - Train Loss: 58.0050 - Val Loss: 71.5583 - Val RMSE: 8.4592 - LR: 0.000000
+2025-03-02 15:56:28,997 [INFO] Epoch [17/20] - Train Loss: 58.5361 - Val Loss: 72.6820 - Val RMSE: 8.5254 - LR: 0.000000
+2025-03-02 15:57:35,747 [INFO] Epoch [18/20] - Train Loss: 58.7566 - Val Loss: 74.1907 - Val RMSE: 8.6134 - LR: 0.000000
+2025-03-02 15:58:42,422 [INFO] Epoch [19/20] - Train Loss: 58.1605 - Val Loss: 71.8309 - Val RMSE: 8.4753 - LR: 0.000000
+2025-03-02 15:58:42,422 [INFO] Early stopping triggered!
+2025-03-02 15:58:42,515 [INFO] Best model (Val RMSE=8.4592) saved to output/checkpoints/fold_2.pth
+2025-03-02 15:58:42,523 [INFO] 
+Fold 4/5
+2025-03-02 15:59:52,477 [INFO] Epoch [1/20] - Train Loss: 211.3006 - Val Loss: 110.1451 - Val RMSE: 10.4950 - LR: 0.000222
+2025-03-02 16:00:59,687 [INFO] Epoch [2/20] - Train Loss: 113.4447 - Val Loss: 111.1101 - Val RMSE: 10.5409 - LR: 0.000222
+2025-03-02 16:02:06,497 [INFO] Epoch [3/20] - Train Loss: 101.9244 - Val Loss: 103.5601 - Val RMSE: 10.1764 - LR: 0.000222
+2025-03-02 16:03:16,333 [INFO] Epoch [4/20] - Train Loss: 94.2195 - Val Loss: 109.7009 - Val RMSE: 10.4738 - LR: 0.000222
+2025-03-02 16:04:23,783 [INFO] Epoch [5/20] - Train Loss: 87.7198 - Val Loss: 104.2069 - Val RMSE: 10.2082 - LR: 0.000222
+2025-03-02 16:05:30,037 [INFO] Epoch [6/20] - Train Loss: 72.8693 - Val Loss: 101.1413 - Val RMSE: 10.0569 - LR: 0.000022
+2025-03-02 16:06:35,747 [INFO] Epoch [7/20] - Train Loss: 66.9528 - Val Loss: 82.2213 - Val RMSE: 9.0676 - LR: 0.000022
+2025-03-02 16:07:42,027 [INFO] Epoch [8/20] - Train Loss: 64.5335 - Val Loss: 81.5635 - Val RMSE: 9.0313 - LR: 0.000022
+2025-03-02 16:08:48,068 [INFO] Epoch [9/20] - Train Loss: 62.9184 - Val Loss: 80.7821 - Val RMSE: 8.9879 - LR: 0.000022
+2025-03-02 16:09:54,577 [INFO] Epoch [10/20] - Train Loss: 61.3526 - Val Loss: 78.8320 - Val RMSE: 8.8787 - LR: 0.000022
+2025-03-02 16:11:01,177 [INFO] Epoch [11/20] - Train Loss: 59.3449 - Val Loss: 78.9731 - Val RMSE: 8.8867 - LR: 0.000002
+2025-03-02 16:12:07,303 [INFO] Epoch [12/20] - Train Loss: 58.7000 - Val Loss: 80.4415 - Val RMSE: 8.9689 - LR: 0.000002
+2025-03-02 16:13:13,604 [INFO] Epoch [13/20] - Train Loss: 58.3163 - Val Loss: 81.3530 - Val RMSE: 9.0196 - LR: 0.000002
+2025-03-02 16:13:13,608 [INFO] Early stopping triggered!
+2025-03-02 16:13:13,698 [INFO] Best model (Val RMSE=8.8787) saved to output/checkpoints/fold_3.pth
+2025-03-02 16:13:13,706 [INFO] 
+Fold 5/5
+2025-03-02 16:14:23,360 [INFO] Epoch [1/20] - Train Loss: 216.1969 - Val Loss: 115.0022 - Val RMSE: 10.7239 - LR: 0.000222
+2025-03-02 16:15:29,858 [INFO] Epoch [2/20] - Train Loss: 114.0789 - Val Loss: 102.1115 - Val RMSE: 10.1050 - LR: 0.000222
+2025-03-02 16:16:38,828 [INFO] Epoch [3/20] - Train Loss: 101.8271 - Val Loss: 103.1191 - Val RMSE: 10.1548 - LR: 0.000222
+2025-03-02 16:17:51,578 [INFO] Epoch [4/20] - Train Loss: 94.6825 - Val Loss: 100.2804 - Val RMSE: 10.0140 - LR: 0.000222
+2025-03-02 16:19:01,228 [INFO] Epoch [5/20] - Train Loss: 87.7227 - Val Loss: 88.6903 - Val RMSE: 9.4176 - LR: 0.000222
+2025-03-02 16:20:07,348 [INFO] Epoch [6/20] - Train Loss: 72.0473 - Val Loss: 85.1987 - Val RMSE: 9.2303 - LR: 0.000022
+2025-03-02 16:21:13,338 [INFO] Epoch [7/20] - Train Loss: 67.1608 - Val Loss: 82.4381 - Val RMSE: 9.0795 - LR: 0.000022
+2025-03-02 16:22:20,088 [INFO] Epoch [8/20] - Train Loss: 64.5300 - Val Loss: 79.5936 - Val RMSE: 8.9215 - LR: 0.000022
+2025-03-02 16:23:27,400 [INFO] Epoch [9/20] - Train Loss: 62.9234 - Val Loss: 83.1071 - Val RMSE: 9.1163 - LR: 0.000022
+2025-03-02 16:24:33,607 [INFO] Epoch [10/20] - Train Loss: 61.0079 - Val Loss: 82.3518 - Val RMSE: 9.0748 - LR: 0.000022
+2025-03-02 16:25:40,098 [INFO] Epoch [11/20] - Train Loss: 58.8926 - Val Loss: 77.8461 - Val RMSE: 8.8230 - LR: 0.000002
+2025-03-02 16:26:46,778 [INFO] Epoch [12/20] - Train Loss: 58.2807 - Val Loss: 78.0675 - Val RMSE: 8.8356 - LR: 0.000002
+2025-03-02 16:27:52,594 [INFO] Epoch [13/20] - Train Loss: 57.7353 - Val Loss: 78.7055 - Val RMSE: 8.8716 - LR: 0.000002
+2025-03-02 16:28:58,598 [INFO] Epoch [14/20] - Train Loss: 58.3415 - Val Loss: 78.1284 - Val RMSE: 8.8390 - LR: 0.000002
+2025-03-02 16:28:58,601 [INFO] Early stopping triggered!
+2025-03-02 16:28:58,700 [INFO] Best model (Val RMSE=8.8230) saved to output/checkpoints/fold_4.pth
+2025-03-02 16:28:58,705 [INFO] 
+Cross-Validation average RMSE: 8.7674
+2025-03-02 16:29:02,198 [INFO] Full dataset size: 36824
+2025-03-02 16:30:10,498 [INFO] Epoch [1/20] - Train Loss: 193.9185 - Val Loss: 90.9040 - Val RMSE: 9.5344 - LR: 0.000222
+2025-03-02 16:31:17,538 [INFO] Epoch [2/20] - Train Loss: 73.3283 - Val Loss: 92.3451 - Val RMSE: 9.6096 - LR: 0.000222
+2025-03-02 16:32:25,023 [INFO] Epoch [3/20] - Train Loss: 48.6202 - Val Loss: 62.9353 - Val RMSE: 7.9332 - LR: 0.000222
+2025-03-02 16:33:32,338 [INFO] Epoch [4/20] - Train Loss: 32.0906 - Val Loss: 60.0348 - Val RMSE: 7.7482 - LR: 0.000222
+2025-03-02 16:34:38,983 [INFO] Epoch [5/20] - Train Loss: 23.8773 - Val Loss: 59.4530 - Val RMSE: 7.7106 - LR: 0.000222
+2025-03-02 16:35:45,744 [INFO] Epoch [6/20] - Train Loss: 13.2172 - Val Loss: 47.4887 - Val RMSE: 6.8912 - LR: 0.000022
+2025-03-02 16:36:52,023 [INFO] Epoch [7/20] - Train Loss: 8.5538 - Val Loss: 46.4690 - Val RMSE: 6.8168 - LR: 0.000022
+2025-03-02 16:37:58,764 [INFO] Epoch [8/20] - Train Loss: 6.1936 - Val Loss: 46.4682 - Val RMSE: 6.8168 - LR: 0.000022
+2025-03-02 16:39:05,269 [INFO] Epoch [9/20] - Train Loss: 4.5729 - Val Loss: 45.1857 - Val RMSE: 6.7220 - LR: 0.000022
+2025-03-02 16:40:12,068 [INFO] Epoch [10/20] - Train Loss: 3.6069 - Val Loss: 45.8303 - Val RMSE: 6.7698 - LR: 0.000022
+2025-03-02 16:41:21,254 [INFO] Epoch [11/20] - Train Loss: 2.5215 - Val Loss: 45.9492 - Val RMSE: 6.7786 - LR: 0.000002
+2025-03-02 16:42:27,931 [INFO] Epoch [12/20] - Train Loss: 2.4077 - Val Loss: 44.9246 - Val RMSE: 6.7026 - LR: 0.000002
+2025-03-02 16:43:34,619 [INFO] Epoch [13/20] - Train Loss: 2.2697 - Val Loss: 45.3386 - Val RMSE: 6.7334 - LR: 0.000002
+2025-03-02 16:44:41,475 [INFO] Epoch [14/20] - Train Loss: 2.1870 - Val Loss: 44.8056 - Val RMSE: 6.6937 - LR: 0.000002
+2025-03-02 16:45:48,259 [INFO] Epoch [15/20] - Train Loss: 2.0758 - Val Loss: 45.7600 - Val RMSE: 6.7646 - LR: 0.000002
+2025-03-02 16:46:54,864 [INFO] Epoch [16/20] - Train Loss: 1.9705 - Val Loss: 45.1476 - Val RMSE: 6.7192 - LR: 0.000000
+2025-03-02 16:48:01,587 [INFO] Epoch [17/20] - Train Loss: 1.9498 - Val Loss: 45.6649 - Val RMSE: 6.7576 - LR: 0.000000
+2025-03-02 16:48:01,587 [INFO] Early stopping triggered!
+2025-03-02 16:48:01,686 [INFO] Best model (Val RMSE=6.6937) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 17:09:13,679 [INFO] Full dataset size: 36824
+2025-03-02 17:10:47,656 [INFO] Epoch [1/30] - Train Loss: 848.7265 - Val Loss: 393.4594 - Val RMSE: 19.8358 - LR: 0.000010
+2025-03-02 17:12:21,860 [INFO] Epoch [2/30] - Train Loss: 193.5236 - Val Loss: 93.7571 - Val RMSE: 9.6828 - LR: 0.000010
+2025-03-02 17:13:57,420 [INFO] Epoch [3/30] - Train Loss: 88.1712 - Val Loss: 74.9771 - Val RMSE: 8.6589 - LR: 0.000010
+2025-03-02 17:15:32,280 [INFO] Epoch [4/30] - Train Loss: 64.9166 - Val Loss: 69.2471 - Val RMSE: 8.3215 - LR: 0.000010
+2025-03-02 17:17:06,260 [INFO] Epoch [5/30] - Train Loss: 49.2047 - Val Loss: 69.8912 - Val RMSE: 8.3601 - LR: 0.000010
+2025-03-02 17:18:40,408 [INFO] Epoch [6/30] - Train Loss: 35.6436 - Val Loss: 61.2593 - Val RMSE: 7.8268 - LR: 0.000001
+2025-03-02 17:20:15,791 [INFO] Epoch [7/30] - Train Loss: 33.3614 - Val Loss: 60.1941 - Val RMSE: 7.7585 - LR: 0.000001
+2025-03-02 17:21:51,475 [INFO] Epoch [8/30] - Train Loss: 31.6700 - Val Loss: 59.3042 - Val RMSE: 7.7009 - LR: 0.000001
+2025-03-02 17:23:26,187 [INFO] Epoch [9/30] - Train Loss: 30.3458 - Val Loss: 59.9156 - Val RMSE: 7.7405 - LR: 0.000001
+2025-03-02 17:24:59,614 [INFO] Epoch [10/30] - Train Loss: 28.9387 - Val Loss: 59.7182 - Val RMSE: 7.7278 - LR: 0.000001
+2025-03-02 17:26:33,541 [INFO] Epoch [11/30] - Train Loss: 27.5903 - Val Loss: 58.5451 - Val RMSE: 7.6515 - LR: 0.000000
+2025-03-02 17:28:07,756 [INFO] Epoch [12/30] - Train Loss: 27.5856 - Val Loss: 58.1892 - Val RMSE: 7.6282 - LR: 0.000000
+2025-03-02 17:29:42,771 [INFO] Epoch [13/30] - Train Loss: 27.4389 - Val Loss: 60.7186 - Val RMSE: 7.7922 - LR: 0.000000
+2025-03-02 17:31:18,174 [INFO] Epoch [14/30] - Train Loss: 26.6880 - Val Loss: 58.8433 - Val RMSE: 7.6709 - LR: 0.000000
+2025-03-02 17:32:53,414 [INFO] Epoch [15/30] - Train Loss: 26.5969 - Val Loss: 63.0761 - Val RMSE: 7.9420 - LR: 0.000000
+2025-03-02 17:34:28,341 [INFO] Epoch [16/30] - Train Loss: 27.4030 - Val Loss: 60.9498 - Val RMSE: 7.8070 - LR: 0.000000
+2025-03-02 17:36:03,121 [INFO] Epoch [17/30] - Train Loss: 26.7745 - Val Loss: 61.5702 - Val RMSE: 7.8467 - LR: 0.000000
+2025-03-02 17:36:03,121 [INFO] Early stopping triggered!
+2025-03-02 17:36:03,191 [INFO] Best model (Val RMSE=7.6282) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00000.pth
+2025-03-02 17:36:11,433 [INFO] Full dataset size: 36824
+2025-03-02 17:36:56,851 [INFO] Epoch [1/25] - Train Loss: 1160.7418 - Val Loss: 913.5308 - Val RMSE: 30.2247 - LR: 0.000023
+2025-03-02 17:37:41,592 [INFO] Epoch [2/25] - Train Loss: 716.7926 - Val Loss: 571.3069 - Val RMSE: 23.9020 - LR: 0.000023
+2025-03-02 17:38:27,312 [INFO] Epoch [3/25] - Train Loss: 461.1500 - Val Loss: 386.0793 - Val RMSE: 19.6489 - LR: 0.000023
+2025-03-02 17:39:12,387 [INFO] Epoch [4/25] - Train Loss: 277.6673 - Val Loss: 220.3138 - Val RMSE: 14.8430 - LR: 0.000023
+2025-03-02 17:39:59,562 [INFO] Epoch [5/25] - Train Loss: 155.2253 - Val Loss: 144.4721 - Val RMSE: 12.0197 - LR: 0.000023
+2025-03-02 17:40:44,972 [INFO] Epoch [6/25] - Train Loss: 102.2083 - Val Loss: 135.6258 - Val RMSE: 11.6458 - LR: 0.000002
+2025-03-02 17:41:30,719 [INFO] Epoch [7/25] - Train Loss: 92.9979 - Val Loss: 144.6995 - Val RMSE: 12.0291 - LR: 0.000002
+2025-03-02 17:42:16,404 [INFO] Epoch [8/25] - Train Loss: 84.9217 - Val Loss: 120.1025 - Val RMSE: 10.9591 - LR: 0.000002
+2025-03-02 17:43:02,112 [INFO] Epoch [9/25] - Train Loss: 77.4725 - Val Loss: 121.2123 - Val RMSE: 11.0096 - LR: 0.000002
+2025-03-02 17:43:47,852 [INFO] Epoch [10/25] - Train Loss: 69.9962 - Val Loss: 99.3912 - Val RMSE: 9.9695 - LR: 0.000002
+2025-03-02 17:44:33,822 [INFO] Epoch [11/25] - Train Loss: 64.9668 - Val Loss: 107.0719 - Val RMSE: 10.3476 - LR: 0.000000
+2025-03-02 17:45:19,696 [INFO] Epoch [12/25] - Train Loss: 64.0343 - Val Loss: 111.2268 - Val RMSE: 10.5464 - LR: 0.000000
+2025-03-02 17:45:19,696 [INFO] Early stopping triggered!
+2025-03-02 17:45:19,776 [INFO] Best model (Val RMSE=9.9695) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00001.pth
+2025-03-02 17:45:27,757 [INFO] Full dataset size: 36824
+2025-03-02 17:46:12,566 [INFO] Epoch [1/25] - Train Loss: 1259.7163 - Val Loss: 1123.0001 - Val RMSE: 33.5112 - LR: 0.000036
+2025-03-02 17:46:57,604 [INFO] Epoch [2/25] - Train Loss: 868.8141 - Val Loss: 801.1791 - Val RMSE: 28.3051 - LR: 0.000036
+2025-03-02 17:47:41,476 [INFO] Epoch [3/25] - Train Loss: 648.2031 - Val Loss: 565.3066 - Val RMSE: 23.7762 - LR: 0.000036
+2025-03-02 17:48:26,222 [INFO] Epoch [4/25] - Train Loss: 472.9533 - Val Loss: 455.2129 - Val RMSE: 21.3357 - LR: 0.000036
+2025-03-02 17:49:10,202 [INFO] Epoch [5/25] - Train Loss: 328.0308 - Val Loss: 345.8581 - Val RMSE: 18.5973 - LR: 0.000036
+2025-03-02 17:49:54,454 [INFO] Epoch [6/25] - Train Loss: 256.3996 - Val Loss: 275.0770 - Val RMSE: 16.5854 - LR: 0.000004
+2025-03-02 17:50:38,737 [INFO] Epoch [7/25] - Train Loss: 243.7059 - Val Loss: 277.9670 - Val RMSE: 16.6723 - LR: 0.000004
+2025-03-02 17:51:24,340 [INFO] Epoch [8/25] - Train Loss: 231.6888 - Val Loss: 261.2692 - Val RMSE: 16.1638 - LR: 0.000004
+2025-03-02 17:52:09,162 [INFO] Epoch [9/25] - Train Loss: 219.7229 - Val Loss: 252.3650 - Val RMSE: 15.8860 - LR: 0.000004
+2025-03-02 17:52:53,977 [INFO] Epoch [10/25] - Train Loss: 207.6737 - Val Loss: 245.3842 - Val RMSE: 15.6647 - LR: 0.000004
+2025-03-02 17:53:38,108 [INFO] Epoch [11/25] - Train Loss: 201.0914 - Val Loss: 232.5019 - Val RMSE: 15.2480 - LR: 0.000000
+2025-03-02 17:54:21,903 [INFO] Epoch [12/25] - Train Loss: 199.5096 - Val Loss: 247.3450 - Val RMSE: 15.7272 - LR: 0.000000
+2025-03-02 17:55:06,254 [INFO] Epoch [13/25] - Train Loss: 198.2660 - Val Loss: 239.0397 - Val RMSE: 15.4609 - LR: 0.000000
+2025-03-02 17:55:51,069 [INFO] Epoch [14/25] - Train Loss: 196.8645 - Val Loss: 225.2647 - Val RMSE: 15.0088 - LR: 0.000000
+2025-03-02 17:56:35,251 [INFO] Epoch [15/25] - Train Loss: 195.9191 - Val Loss: 234.1917 - Val RMSE: 15.3033 - LR: 0.000000
+2025-03-02 17:57:19,736 [INFO] Epoch [16/25] - Train Loss: 195.2023 - Val Loss: 231.8397 - Val RMSE: 15.2263 - LR: 0.000000
+2025-03-02 17:58:04,272 [INFO] Epoch [17/25] - Train Loss: 194.6992 - Val Loss: 252.8466 - Val RMSE: 15.9011 - LR: 0.000000
+2025-03-02 17:58:04,272 [INFO] Early stopping triggered!
+2025-03-02 17:58:04,380 [INFO] Best model (Val RMSE=15.0088) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00002.pth
+2025-03-02 17:58:12,652 [INFO] Full dataset size: 36824
+2025-03-02 17:58:56,822 [INFO] Epoch [1/25] - Train Loss: 1110.1833 - Val Loss: 759.7096 - Val RMSE: 27.5628 - LR: 0.000062
+2025-03-02 17:59:41,985 [INFO] Epoch [2/25] - Train Loss: 636.2137 - Val Loss: 449.6585 - Val RMSE: 21.2052 - LR: 0.000062
+2025-03-02 18:00:26,416 [INFO] Epoch [3/25] - Train Loss: 356.6907 - Val Loss: 230.1555 - Val RMSE: 15.1709 - LR: 0.000062
+2025-03-02 18:01:10,986 [INFO] Epoch [4/25] - Train Loss: 174.7032 - Val Loss: 131.3017 - Val RMSE: 11.4587 - LR: 0.000062
+2025-03-02 18:01:55,673 [INFO] Epoch [5/25] - Train Loss: 77.3597 - Val Loss: 71.0050 - Val RMSE: 8.4264 - LR: 0.000062
+2025-03-02 18:02:40,919 [INFO] Epoch [6/25] - Train Loss: 40.6682 - Val Loss: 70.1358 - Val RMSE: 8.3747 - LR: 0.000006
+2025-03-02 18:03:25,599 [INFO] Epoch [7/25] - Train Loss: 35.4667 - Val Loss: 70.1538 - Val RMSE: 8.3758 - LR: 0.000006
+2025-03-02 18:04:09,407 [INFO] Epoch [8/25] - Train Loss: 31.1862 - Val Loss: 68.5181 - Val RMSE: 8.2776 - LR: 0.000006
+2025-03-02 18:04:54,062 [INFO] Epoch [9/25] - Train Loss: 27.3960 - Val Loss: 67.0910 - Val RMSE: 8.1909 - LR: 0.000006
+2025-03-02 18:05:38,866 [INFO] Epoch [10/25] - Train Loss: 23.5369 - Val Loss: 67.8820 - Val RMSE: 8.2391 - LR: 0.000006
+2025-03-02 18:06:23,453 [INFO] Epoch [11/25] - Train Loss: 21.0202 - Val Loss: 59.5175 - Val RMSE: 7.7148 - LR: 0.000001
+2025-03-02 18:07:07,813 [INFO] Epoch [12/25] - Train Loss: 20.4877 - Val Loss: 65.6033 - Val RMSE: 8.0996 - LR: 0.000001
+2025-03-02 18:07:52,602 [INFO] Epoch [13/25] - Train Loss: 20.1371 - Val Loss: 60.9309 - Val RMSE: 7.8058 - LR: 0.000001
+2025-03-02 18:07:52,602 [INFO] Early stopping triggered!
+2025-03-02 18:07:52,683 [INFO] Best model (Val RMSE=7.7148) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00003.pth
+2025-03-02 18:08:00,682 [INFO] Full dataset size: 36824
+2025-03-02 18:08:46,444 [INFO] Epoch [1/25] - Train Loss: 244.2543 - Val Loss: 93.0813 - Val RMSE: 9.6479 - LR: 0.000412
+2025-03-02 18:09:32,383 [INFO] Epoch [2/25] - Train Loss: 66.2077 - Val Loss: 74.8510 - Val RMSE: 8.6516 - LR: 0.000412
+2025-03-02 18:10:18,343 [INFO] Epoch [3/25] - Train Loss: 41.0781 - Val Loss: 70.1750 - Val RMSE: 8.3771 - LR: 0.000412
+2025-03-02 18:11:05,843 [INFO] Epoch [4/25] - Train Loss: 26.4962 - Val Loss: 64.3960 - Val RMSE: 8.0247 - LR: 0.000412
+2025-03-02 18:11:52,188 [INFO] Epoch [5/25] - Train Loss: 18.7056 - Val Loss: 57.2717 - Val RMSE: 7.5678 - LR: 0.000412
+2025-03-02 18:12:38,216 [INFO] Epoch [6/25] - Train Loss: 10.4193 - Val Loss: 50.3918 - Val RMSE: 7.0987 - LR: 0.000041
+2025-03-02 18:13:24,605 [INFO] Epoch [7/25] - Train Loss: 6.7223 - Val Loss: 50.3269 - Val RMSE: 7.0941 - LR: 0.000041
+2025-03-02 18:14:10,015 [INFO] Epoch [8/25] - Train Loss: 5.0370 - Val Loss: 49.7189 - Val RMSE: 7.0512 - LR: 0.000041
+2025-03-02 18:14:56,299 [INFO] Epoch [9/25] - Train Loss: 3.7541 - Val Loss: 50.0438 - Val RMSE: 7.0742 - LR: 0.000041
+2025-03-02 18:15:41,580 [INFO] Epoch [10/25] - Train Loss: 2.9241 - Val Loss: 51.2207 - Val RMSE: 7.1569 - LR: 0.000041
+2025-03-02 18:15:41,580 [INFO] Early stopping triggered!
+2025-03-02 18:15:41,660 [INFO] Best model (Val RMSE=7.0512) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00004.pth
+2025-03-02 18:15:49,653 [INFO] Full dataset size: 36824
+2025-03-02 18:17:27,705 [INFO] Epoch [1/20] - Train Loss: 173.3430 - Val Loss: 166.6183 - Val RMSE: 12.9081 - LR: 0.000712
+2025-03-02 18:19:03,463 [INFO] Epoch [2/20] - Train Loss: 107.1060 - Val Loss: 96.5524 - Val RMSE: 9.8261 - LR: 0.000712
+2025-03-02 18:20:39,544 [INFO] Epoch [3/20] - Train Loss: 79.6078 - Val Loss: 87.4690 - Val RMSE: 9.3525 - LR: 0.000712
+2025-03-02 18:22:15,478 [INFO] Epoch [4/20] - Train Loss: 57.1124 - Val Loss: 88.8251 - Val RMSE: 9.4247 - LR: 0.000712
+2025-03-02 18:23:52,351 [INFO] Epoch [5/20] - Train Loss: 41.6862 - Val Loss: 72.7594 - Val RMSE: 8.5299 - LR: 0.000712
+2025-03-02 18:25:29,415 [INFO] Epoch [6/20] - Train Loss: 22.1986 - Val Loss: 62.2378 - Val RMSE: 7.8891 - LR: 0.000071
+2025-03-02 18:27:05,704 [INFO] Epoch [7/20] - Train Loss: 15.1599 - Val Loss: 62.0489 - Val RMSE: 7.8771 - LR: 0.000071
+2025-03-02 18:28:41,537 [INFO] Epoch [8/20] - Train Loss: 10.7855 - Val Loss: 59.4639 - Val RMSE: 7.7113 - LR: 0.000071
+2025-03-02 18:30:16,454 [INFO] Epoch [9/20] - Train Loss: 8.1622 - Val Loss: 59.1201 - Val RMSE: 7.6890 - LR: 0.000071
+2025-03-02 18:31:53,064 [INFO] Epoch [10/20] - Train Loss: 5.9611 - Val Loss: 59.5055 - Val RMSE: 7.7140 - LR: 0.000071
+2025-03-02 18:33:30,015 [INFO] Epoch [11/20] - Train Loss: 4.1873 - Val Loss: 59.8192 - Val RMSE: 7.7343 - LR: 0.000007
+2025-03-02 18:35:05,349 [INFO] Epoch [12/20] - Train Loss: 3.8509 - Val Loss: 59.1820 - Val RMSE: 7.6930 - LR: 0.000007
+2025-03-02 18:36:41,480 [INFO] Epoch [13/20] - Train Loss: 3.6943 - Val Loss: 59.6697 - Val RMSE: 7.7246 - LR: 0.000007
+2025-03-02 18:38:16,679 [INFO] Epoch [14/20] - Train Loss: 3.4897 - Val Loss: 59.4312 - Val RMSE: 7.7092 - LR: 0.000007
+2025-03-02 18:38:16,679 [INFO] Early stopping triggered!
+2025-03-02 18:38:16,754 [INFO] Best model (Val RMSE=7.6890) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00005.pth
+2025-03-02 18:38:24,399 [INFO] Full dataset size: 36824
+2025-03-02 18:39:26,324 [INFO] Epoch [1/25] - Train Loss: 708.4033 - Val Loss: 262.9378 - Val RMSE: 16.2154 - LR: 0.000025
+2025-03-02 18:40:28,426 [INFO] Epoch [2/25] - Train Loss: 125.0878 - Val Loss: 77.6547 - Val RMSE: 8.8122 - LR: 0.000025
+2025-03-02 18:41:31,417 [INFO] Epoch [3/25] - Train Loss: 60.4682 - Val Loss: 67.6359 - Val RMSE: 8.2241 - LR: 0.000025
+2025-03-02 18:42:32,578 [INFO] Epoch [4/25] - Train Loss: 40.4427 - Val Loss: 71.7479 - Val RMSE: 8.4704 - LR: 0.000025
+2025-03-02 18:43:35,181 [INFO] Epoch [5/25] - Train Loss: 27.9353 - Val Loss: 63.0541 - Val RMSE: 7.9407 - LR: 0.000025
+2025-03-02 18:44:36,797 [INFO] Epoch [6/25] - Train Loss: 17.2785 - Val Loss: 58.6648 - Val RMSE: 7.6593 - LR: 0.000003
+2025-03-02 18:45:38,254 [INFO] Epoch [7/25] - Train Loss: 14.6413 - Val Loss: 58.3308 - Val RMSE: 7.6375 - LR: 0.000003
+2025-03-02 18:46:39,674 [INFO] Epoch [8/25] - Train Loss: 13.3705 - Val Loss: 61.1170 - Val RMSE: 7.8177 - LR: 0.000003
+2025-03-02 18:47:41,551 [INFO] Epoch [9/25] - Train Loss: 12.2062 - Val Loss: 57.9978 - Val RMSE: 7.6156 - LR: 0.000003
+2025-03-02 18:48:43,624 [INFO] Epoch [10/25] - Train Loss: 11.2463 - Val Loss: 58.2122 - Val RMSE: 7.6297 - LR: 0.000003
+2025-03-02 18:49:45,963 [INFO] Epoch [11/25] - Train Loss: 10.4724 - Val Loss: 58.7191 - Val RMSE: 7.6628 - LR: 0.000000
+2025-03-02 18:50:47,857 [INFO] Epoch [12/25] - Train Loss: 10.2648 - Val Loss: 58.0421 - Val RMSE: 7.6185 - LR: 0.000000
+2025-03-02 18:50:47,857 [INFO] Early stopping triggered!
+2025-03-02 18:50:47,934 [INFO] Best model (Val RMSE=7.6156) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00006.pth
+2025-03-02 18:50:56,168 [INFO] Full dataset size: 36824
+2025-03-02 18:51:42,205 [INFO] Epoch [1/30] - Train Loss: 577.9547 - Val Loss: 130.3928 - Val RMSE: 11.4190 - LR: 0.000131
+2025-03-02 18:52:28,256 [INFO] Epoch [2/30] - Train Loss: 79.6061 - Val Loss: 73.7594 - Val RMSE: 8.5883 - LR: 0.000131
+2025-03-02 18:53:14,698 [INFO] Epoch [3/30] - Train Loss: 40.7086 - Val Loss: 63.5507 - Val RMSE: 7.9719 - LR: 0.000131
+2025-03-02 18:53:59,803 [INFO] Epoch [4/30] - Train Loss: 25.1365 - Val Loss: 57.5299 - Val RMSE: 7.5848 - LR: 0.000131
+2025-03-02 18:54:45,935 [INFO] Epoch [5/30] - Train Loss: 16.4447 - Val Loss: 55.2459 - Val RMSE: 7.4328 - LR: 0.000131
+2025-03-02 18:55:32,135 [INFO] Epoch [6/30] - Train Loss: 9.2967 - Val Loss: 48.8618 - Val RMSE: 6.9901 - LR: 0.000013
+2025-03-02 18:56:18,230 [INFO] Epoch [7/30] - Train Loss: 7.3558 - Val Loss: 48.6805 - Val RMSE: 6.9771 - LR: 0.000013
+2025-03-02 18:57:04,620 [INFO] Epoch [8/30] - Train Loss: 5.8181 - Val Loss: 48.5068 - Val RMSE: 6.9647 - LR: 0.000013
+2025-03-02 18:57:50,617 [INFO] Epoch [9/30] - Train Loss: 5.3189 - Val Loss: 48.3315 - Val RMSE: 6.9521 - LR: 0.000013
+2025-03-02 18:58:36,719 [INFO] Epoch [10/30] - Train Loss: 4.3563 - Val Loss: 48.2186 - Val RMSE: 6.9440 - LR: 0.000013
+2025-03-02 18:59:23,020 [INFO] Epoch [11/30] - Train Loss: 3.9952 - Val Loss: 48.3177 - Val RMSE: 6.9511 - LR: 0.000001
+2025-03-02 19:00:09,025 [INFO] Epoch [12/30] - Train Loss: 3.3796 - Val Loss: 48.6273 - Val RMSE: 6.9733 - LR: 0.000001
+2025-03-02 19:00:55,645 [INFO] Epoch [13/30] - Train Loss: 3.4995 - Val Loss: 48.4642 - Val RMSE: 6.9616 - LR: 0.000001
+2025-03-02 19:01:42,127 [INFO] Epoch [14/30] - Train Loss: 3.3231 - Val Loss: 48.2280 - Val RMSE: 6.9446 - LR: 0.000001
+2025-03-02 19:01:42,127 [INFO] Early stopping triggered!
+2025-03-02 19:01:42,209 [INFO] Best model (Val RMSE=6.9440) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00007.pth
+2025-03-02 19:01:50,611 [INFO] Full dataset size: 36824
+2025-03-02 19:02:35,678 [INFO] Epoch [1/15] - Train Loss: 776.9757 - Val Loss: 399.6724 - Val RMSE: 19.9918 - LR: 0.000145
+2025-03-02 19:03:21,246 [INFO] Epoch [2/15] - Train Loss: 189.5609 - Val Loss: 84.3707 - Val RMSE: 9.1854 - LR: 0.000145
+2025-03-02 19:04:05,652 [INFO] Epoch [3/15] - Train Loss: 55.1855 - Val Loss: 66.9496 - Val RMSE: 8.1823 - LR: 0.000145
+2025-03-02 19:04:50,411 [INFO] Epoch [4/15] - Train Loss: 28.5897 - Val Loss: 64.4793 - Val RMSE: 8.0299 - LR: 0.000145
+2025-03-02 19:05:35,597 [INFO] Epoch [5/15] - Train Loss: 17.5263 - Val Loss: 60.9298 - Val RMSE: 7.8058 - LR: 0.000145
+2025-03-02 19:06:20,135 [INFO] Epoch [6/15] - Train Loss: 9.4363 - Val Loss: 52.2909 - Val RMSE: 7.2312 - LR: 0.000014
+2025-03-02 19:07:05,470 [INFO] Epoch [7/15] - Train Loss: 7.6430 - Val Loss: 52.0535 - Val RMSE: 7.2148 - LR: 0.000014
+2025-03-02 19:07:50,282 [INFO] Epoch [8/15] - Train Loss: 6.1903 - Val Loss: 51.4370 - Val RMSE: 7.1720 - LR: 0.000014
+2025-03-02 19:08:35,508 [INFO] Epoch [9/15] - Train Loss: 5.5655 - Val Loss: 50.6667 - Val RMSE: 7.1181 - LR: 0.000014
+2025-03-02 19:09:22,005 [INFO] Epoch [10/15] - Train Loss: 5.4396 - Val Loss: 51.3509 - Val RMSE: 7.1660 - LR: 0.000014
+2025-03-02 19:10:07,266 [INFO] Epoch [11/15] - Train Loss: 4.2395 - Val Loss: 50.5709 - Val RMSE: 7.1113 - LR: 0.000001
+2025-03-02 19:10:54,014 [INFO] Epoch [12/15] - Train Loss: 4.4490 - Val Loss: 51.2447 - Val RMSE: 7.1585 - LR: 0.000001
+2025-03-02 19:11:39,906 [INFO] Epoch [13/15] - Train Loss: 4.0295 - Val Loss: 50.7031 - Val RMSE: 7.1206 - LR: 0.000001
+2025-03-02 19:12:26,845 [INFO] Epoch [14/15] - Train Loss: 4.1576 - Val Loss: 50.9516 - Val RMSE: 7.1380 - LR: 0.000001
+2025-03-02 19:12:26,845 [INFO] Early stopping triggered!
+2025-03-02 19:12:26,925 [INFO] Best model (Val RMSE=7.1113) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00008.pth
+2025-03-02 19:12:36,180 [INFO] Full dataset size: 36824
+2025-03-02 19:13:23,026 [INFO] Epoch [1/15] - Train Loss: 643.0260 - Val Loss: 150.6884 - Val RMSE: 12.2755 - LR: 0.000217
+2025-03-02 19:14:09,946 [INFO] Epoch [2/15] - Train Loss: 94.7197 - Val Loss: 76.3468 - Val RMSE: 8.7377 - LR: 0.000217
+2025-03-02 19:14:55,136 [INFO] Epoch [3/15] - Train Loss: 42.8760 - Val Loss: 69.7336 - Val RMSE: 8.3507 - LR: 0.000217
+2025-03-02 19:15:40,041 [INFO] Epoch [4/15] - Train Loss: 24.9073 - Val Loss: 57.0371 - Val RMSE: 7.5523 - LR: 0.000217
+2025-03-02 19:16:25,999 [INFO] Epoch [5/15] - Train Loss: 15.8614 - Val Loss: 55.6165 - Val RMSE: 7.4576 - LR: 0.000217
+2025-03-02 19:17:11,656 [INFO] Epoch [6/15] - Train Loss: 8.7901 - Val Loss: 49.9431 - Val RMSE: 7.0670 - LR: 0.000022
+2025-03-02 19:17:56,696 [INFO] Epoch [7/15] - Train Loss: 6.9571 - Val Loss: 49.3636 - Val RMSE: 7.0259 - LR: 0.000022
+2025-03-02 19:18:43,101 [INFO] Epoch [8/15] - Train Loss: 5.4049 - Val Loss: 49.6608 - Val RMSE: 7.0470 - LR: 0.000022
+2025-03-02 19:19:28,341 [INFO] Epoch [9/15] - Train Loss: 5.3712 - Val Loss: 49.0650 - Val RMSE: 7.0046 - LR: 0.000022
+2025-03-02 19:20:14,103 [INFO] Epoch [10/15] - Train Loss: 4.9806 - Val Loss: 49.1361 - Val RMSE: 7.0097 - LR: 0.000022
+2025-03-02 19:20:59,288 [INFO] Epoch [11/15] - Train Loss: 4.0835 - Val Loss: 49.0022 - Val RMSE: 7.0002 - LR: 0.000002
+2025-03-02 19:21:44,746 [INFO] Epoch [12/15] - Train Loss: 3.5565 - Val Loss: 48.9456 - Val RMSE: 6.9961 - LR: 0.000002
+2025-03-02 19:22:29,926 [INFO] Epoch [13/15] - Train Loss: 3.6716 - Val Loss: 49.0274 - Val RMSE: 7.0020 - LR: 0.000002
+2025-03-02 19:23:14,673 [INFO] Epoch [14/15] - Train Loss: 3.4175 - Val Loss: 48.9076 - Val RMSE: 6.9934 - LR: 0.000002
+2025-03-02 19:24:00,030 [INFO] Epoch [15/15] - Train Loss: 3.5356 - Val Loss: 50.5681 - Val RMSE: 7.1111 - LR: 0.000002
+2025-03-02 19:24:00,106 [INFO] Best model (Val RMSE=6.9934) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\ray_trial_b8a1d_00009.pth
+2025-03-02 19:24:03,568 [INFO] Full dataset size: 36824
+2025-03-02 19:24:55,786 [INFO] Epoch [1/30] - Train Loss: 613.3147 - Val Loss: 119.1458 - Val RMSE: 10.9154 - LR: 0.000131
+2025-03-02 19:25:47,776 [INFO] Epoch [2/30] - Train Loss: 80.2245 - Val Loss: 68.3203 - Val RMSE: 8.2656 - LR: 0.000131
+2025-03-02 19:26:38,376 [INFO] Epoch [3/30] - Train Loss: 40.7953 - Val Loss: 61.0203 - Val RMSE: 7.8116 - LR: 0.000131
+2025-03-02 19:27:31,326 [INFO] Epoch [4/30] - Train Loss: 25.4282 - Val Loss: 61.8763 - Val RMSE: 7.8661 - LR: 0.000131
+2025-03-02 19:28:23,166 [INFO] Epoch [5/30] - Train Loss: 16.7546 - Val Loss: 62.7930 - Val RMSE: 7.9242 - LR: 0.000131
+2025-03-02 19:29:15,786 [INFO] Epoch [6/30] - Train Loss: 9.8078 - Val Loss: 49.8315 - Val RMSE: 7.0591 - LR: 0.000013
+2025-03-02 19:30:07,308 [INFO] Epoch [7/30] - Train Loss: 7.6183 - Val Loss: 49.5680 - Val RMSE: 7.0405 - LR: 0.000013
+2025-03-02 19:30:58,416 [INFO] Epoch [8/30] - Train Loss: 6.0875 - Val Loss: 49.4924 - Val RMSE: 7.0351 - LR: 0.000013
+2025-03-02 19:31:49,538 [INFO] Epoch [9/30] - Train Loss: 5.3227 - Val Loss: 49.3086 - Val RMSE: 7.0220 - LR: 0.000013
+2025-03-02 19:32:41,567 [INFO] Epoch [10/30] - Train Loss: 4.6825 - Val Loss: 49.5767 - Val RMSE: 7.0411 - LR: 0.000013
+2025-03-02 19:33:32,576 [INFO] Epoch [11/30] - Train Loss: 3.8540 - Val Loss: 49.2404 - Val RMSE: 7.0172 - LR: 0.000001
+2025-03-02 19:34:25,011 [INFO] Epoch [12/30] - Train Loss: 3.8168 - Val Loss: 49.1969 - Val RMSE: 7.0140 - LR: 0.000001
+2025-03-02 19:35:16,250 [INFO] Epoch [13/30] - Train Loss: 3.7944 - Val Loss: 49.5264 - Val RMSE: 7.0375 - LR: 0.000001
+2025-03-02 19:36:07,739 [INFO] Epoch [14/30] - Train Loss: 3.5803 - Val Loss: 49.5481 - Val RMSE: 7.0390 - LR: 0.000001
+2025-03-02 19:36:59,121 [INFO] Epoch [15/30] - Train Loss: 3.5317 - Val Loss: 49.6631 - Val RMSE: 7.0472 - LR: 0.000001
+2025-03-02 19:37:49,270 [INFO] Epoch [16/30] - Train Loss: 3.3199 - Val Loss: 49.2332 - Val RMSE: 7.0166 - LR: 0.000000
+2025-03-02 19:37:49,270 [INFO] Early stopping triggered!
+2025-03-02 19:37:49,349 [INFO] Best model (Val RMSE=7.0140) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 19:37:49,429 [INFO] Total samples in cleaned dataset: 36824
+2025-03-02 19:37:49,430 [INFO] 
+Fold 1/5
+2025-03-02 19:38:43,929 [INFO] Epoch [1/30] - Train Loss: 535.4298 - Val Loss: 188.4702 - Val RMSE: 13.7284 - LR: 0.000131
+2025-03-02 19:39:34,899 [INFO] Epoch [2/30] - Train Loss: 108.8820 - Val Loss: 106.7049 - Val RMSE: 10.3298 - LR: 0.000131
+2025-03-02 19:40:26,049 [INFO] Epoch [3/30] - Train Loss: 91.3128 - Val Loss: 97.8288 - Val RMSE: 9.8908 - LR: 0.000131
+2025-03-02 19:41:17,049 [INFO] Epoch [4/30] - Train Loss: 83.1319 - Val Loss: 90.5628 - Val RMSE: 9.5165 - LR: 0.000131
+2025-03-02 19:42:08,002 [INFO] Epoch [5/30] - Train Loss: 78.3065 - Val Loss: 93.6978 - Val RMSE: 9.6798 - LR: 0.000131
+2025-03-02 19:42:58,977 [INFO] Epoch [6/30] - Train Loss: 67.4179 - Val Loss: 79.6333 - Val RMSE: 8.9237 - LR: 0.000013
+2025-03-02 19:43:50,522 [INFO] Epoch [7/30] - Train Loss: 63.1898 - Val Loss: 78.2828 - Val RMSE: 8.8478 - LR: 0.000013
+2025-03-02 19:44:41,507 [INFO] Epoch [8/30] - Train Loss: 62.4188 - Val Loss: 79.2482 - Val RMSE: 8.9021 - LR: 0.000013
+2025-03-02 19:45:32,367 [INFO] Epoch [9/30] - Train Loss: 60.0852 - Val Loss: 76.8516 - Val RMSE: 8.7665 - LR: 0.000013
+2025-03-02 19:46:22,942 [INFO] Epoch [10/30] - Train Loss: 59.2596 - Val Loss: 75.8680 - Val RMSE: 8.7102 - LR: 0.000013
+2025-03-02 19:47:14,367 [INFO] Epoch [11/30] - Train Loss: 57.6151 - Val Loss: 75.5681 - Val RMSE: 8.6930 - LR: 0.000001
+2025-03-02 19:48:04,631 [INFO] Epoch [12/30] - Train Loss: 57.0581 - Val Loss: 76.1579 - Val RMSE: 8.7268 - LR: 0.000001
+2025-03-02 19:48:56,657 [INFO] Epoch [13/30] - Train Loss: 57.1139 - Val Loss: 75.8970 - Val RMSE: 8.7119 - LR: 0.000001
+2025-03-02 19:49:48,157 [INFO] Epoch [14/30] - Train Loss: 56.4503 - Val Loss: 75.5213 - Val RMSE: 8.6903 - LR: 0.000001
+2025-03-02 19:50:39,134 [INFO] Epoch [15/30] - Train Loss: 56.9029 - Val Loss: 75.5992 - Val RMSE: 8.6948 - LR: 0.000001
+2025-03-02 19:51:31,233 [INFO] Epoch [16/30] - Train Loss: 57.2108 - Val Loss: 76.8847 - Val RMSE: 8.7684 - LR: 0.000000
+2025-03-02 19:52:21,455 [INFO] Epoch [17/30] - Train Loss: 56.6471 - Val Loss: 75.5522 - Val RMSE: 8.6921 - LR: 0.000000
+2025-03-02 19:52:21,455 [INFO] Early stopping triggered!
+2025-03-02 19:52:21,541 [INFO] Best model (Val RMSE=8.6903) saved to output/checkpoints/fold_0.pth
+2025-03-02 19:52:21,548 [INFO] 
+Fold 2/5
+2025-03-02 19:53:16,648 [INFO] Epoch [1/30] - Train Loss: 548.2946 - Val Loss: 209.3073 - Val RMSE: 14.4675 - LR: 0.000131
+2025-03-02 19:54:07,831 [INFO] Epoch [2/30] - Train Loss: 111.3582 - Val Loss: 95.8342 - Val RMSE: 9.7895 - LR: 0.000131
+2025-03-02 19:55:00,533 [INFO] Epoch [3/30] - Train Loss: 93.3176 - Val Loss: 87.6258 - Val RMSE: 9.3609 - LR: 0.000131
+2025-03-02 19:55:52,163 [INFO] Epoch [4/30] - Train Loss: 85.5389 - Val Loss: 88.7953 - Val RMSE: 9.4231 - LR: 0.000131
+2025-03-02 19:56:42,342 [INFO] Epoch [5/30] - Train Loss: 80.8928 - Val Loss: 87.7507 - Val RMSE: 9.3675 - LR: 0.000131
+2025-03-02 19:57:33,518 [INFO] Epoch [6/30] - Train Loss: 68.3637 - Val Loss: 75.5550 - Val RMSE: 8.6922 - LR: 0.000013
+2025-03-02 19:58:25,488 [INFO] Epoch [7/30] - Train Loss: 65.3522 - Val Loss: 74.2673 - Val RMSE: 8.6178 - LR: 0.000013
+2025-03-02 19:59:17,479 [INFO] Epoch [8/30] - Train Loss: 63.2584 - Val Loss: 74.9006 - Val RMSE: 8.6545 - LR: 0.000013
+2025-03-02 20:00:08,055 [INFO] Epoch [9/30] - Train Loss: 62.2835 - Val Loss: 73.6655 - Val RMSE: 8.5829 - LR: 0.000013
+2025-03-02 20:00:59,448 [INFO] Epoch [10/30] - Train Loss: 60.6937 - Val Loss: 72.3861 - Val RMSE: 8.5080 - LR: 0.000013
+2025-03-02 20:01:50,218 [INFO] Epoch [11/30] - Train Loss: 59.4316 - Val Loss: 72.3104 - Val RMSE: 8.5036 - LR: 0.000001
+2025-03-02 20:02:41,448 [INFO] Epoch [12/30] - Train Loss: 58.7809 - Val Loss: 71.8203 - Val RMSE: 8.4747 - LR: 0.000001
+2025-03-02 20:03:32,208 [INFO] Epoch [13/30] - Train Loss: 59.0865 - Val Loss: 72.0583 - Val RMSE: 8.4887 - LR: 0.000001
+2025-03-02 20:04:22,943 [INFO] Epoch [14/30] - Train Loss: 58.7237 - Val Loss: 71.7758 - Val RMSE: 8.4721 - LR: 0.000001
+2025-03-02 20:05:14,078 [INFO] Epoch [15/30] - Train Loss: 57.6565 - Val Loss: 71.6413 - Val RMSE: 8.4641 - LR: 0.000001
+2025-03-02 20:06:05,312 [INFO] Epoch [16/30] - Train Loss: 57.5773 - Val Loss: 72.1769 - Val RMSE: 8.4957 - LR: 0.000000
+2025-03-02 20:06:55,768 [INFO] Epoch [17/30] - Train Loss: 58.3107 - Val Loss: 72.5386 - Val RMSE: 8.5170 - LR: 0.000000
+2025-03-02 20:07:47,078 [INFO] Epoch [18/30] - Train Loss: 58.4189 - Val Loss: 72.7133 - Val RMSE: 8.5272 - LR: 0.000000
+2025-03-02 20:07:47,078 [INFO] Early stopping triggered!
+2025-03-02 20:07:47,165 [INFO] Best model (Val RMSE=8.4641) saved to output/checkpoints/fold_1.pth
+2025-03-02 20:07:47,171 [INFO] 
+Fold 3/5
+2025-03-02 20:08:42,665 [INFO] Epoch [1/30] - Train Loss: 619.0687 - Val Loss: 262.9944 - Val RMSE: 16.2171 - LR: 0.000131
+2025-03-02 20:09:33,942 [INFO] Epoch [2/30] - Train Loss: 118.3133 - Val Loss: 99.0112 - Val RMSE: 9.9504 - LR: 0.000131
+2025-03-02 20:10:25,385 [INFO] Epoch [3/30] - Train Loss: 94.4451 - Val Loss: 93.2229 - Val RMSE: 9.6552 - LR: 0.000131
+2025-03-02 20:11:15,868 [INFO] Epoch [4/30] - Train Loss: 85.5766 - Val Loss: 88.5740 - Val RMSE: 9.4114 - LR: 0.000131
+2025-03-02 20:12:07,102 [INFO] Epoch [5/30] - Train Loss: 79.8992 - Val Loss: 84.5119 - Val RMSE: 9.1930 - LR: 0.000131
+2025-03-02 20:12:59,488 [INFO] Epoch [6/30] - Train Loss: 69.6880 - Val Loss: 81.3681 - Val RMSE: 9.0204 - LR: 0.000013
+2025-03-02 20:13:50,378 [INFO] Epoch [7/30] - Train Loss: 65.9861 - Val Loss: 76.9220 - Val RMSE: 8.7705 - LR: 0.000013
+2025-03-02 20:14:41,968 [INFO] Epoch [8/30] - Train Loss: 64.7618 - Val Loss: 77.9917 - Val RMSE: 8.8313 - LR: 0.000013
+2025-03-02 20:15:33,248 [INFO] Epoch [9/30] - Train Loss: 62.1423 - Val Loss: 76.3511 - Val RMSE: 8.7379 - LR: 0.000013
+2025-03-02 20:16:24,311 [INFO] Epoch [10/30] - Train Loss: 60.8041 - Val Loss: 76.3382 - Val RMSE: 8.7372 - LR: 0.000013
+2025-03-02 20:17:15,048 [INFO] Epoch [11/30] - Train Loss: 59.4832 - Val Loss: 76.6574 - Val RMSE: 8.7554 - LR: 0.000001
+2025-03-02 20:18:06,415 [INFO] Epoch [12/30] - Train Loss: 59.6730 - Val Loss: 76.2375 - Val RMSE: 8.7314 - LR: 0.000001
+2025-03-02 20:18:57,329 [INFO] Epoch [13/30] - Train Loss: 59.6244 - Val Loss: 76.5040 - Val RMSE: 8.7467 - LR: 0.000001
+2025-03-02 20:19:48,629 [INFO] Epoch [14/30] - Train Loss: 58.8287 - Val Loss: 75.4236 - Val RMSE: 8.6847 - LR: 0.000001
+2025-03-02 20:20:39,064 [INFO] Epoch [15/30] - Train Loss: 59.5739 - Val Loss: 75.3513 - Val RMSE: 8.6805 - LR: 0.000001
+2025-03-02 20:21:29,904 [INFO] Epoch [16/30] - Train Loss: 58.4729 - Val Loss: 76.4682 - Val RMSE: 8.7446 - LR: 0.000000
+2025-03-02 20:22:20,455 [INFO] Epoch [17/30] - Train Loss: 58.5808 - Val Loss: 75.1377 - Val RMSE: 8.6682 - LR: 0.000000
+2025-03-02 20:23:11,655 [INFO] Epoch [18/30] - Train Loss: 59.1783 - Val Loss: 75.4695 - Val RMSE: 8.6873 - LR: 0.000000
+2025-03-02 20:24:02,709 [INFO] Epoch [19/30] - Train Loss: 58.4003 - Val Loss: 75.4322 - Val RMSE: 8.6852 - LR: 0.000000
+2025-03-02 20:24:53,944 [INFO] Epoch [20/30] - Train Loss: 58.0919 - Val Loss: 75.7096 - Val RMSE: 8.7011 - LR: 0.000000
+2025-03-02 20:24:53,944 [INFO] Early stopping triggered!
+2025-03-02 20:24:54,029 [INFO] Best model (Val RMSE=8.6682) saved to output/checkpoints/fold_2.pth
+2025-03-02 20:24:54,034 [INFO] 
+Fold 4/5
+2025-03-02 20:25:48,889 [INFO] Epoch [1/30] - Train Loss: 607.2895 - Val Loss: 195.0077 - Val RMSE: 13.9645 - LR: 0.000131
+2025-03-02 20:26:39,960 [INFO] Epoch [2/30] - Train Loss: 119.3902 - Val Loss: 124.1478 - Val RMSE: 11.1422 - LR: 0.000131
+2025-03-02 20:27:30,935 [INFO] Epoch [3/30] - Train Loss: 92.9887 - Val Loss: 95.8117 - Val RMSE: 9.7883 - LR: 0.000131
+2025-03-02 20:28:22,095 [INFO] Epoch [4/30] - Train Loss: 85.8642 - Val Loss: 99.2392 - Val RMSE: 9.9619 - LR: 0.000131
+2025-03-02 20:29:13,273 [INFO] Epoch [5/30] - Train Loss: 78.8852 - Val Loss: 85.9748 - Val RMSE: 9.2723 - LR: 0.000131
+2025-03-02 20:30:04,764 [INFO] Epoch [6/30] - Train Loss: 68.5451 - Val Loss: 80.7686 - Val RMSE: 8.9871 - LR: 0.000013
+2025-03-02 20:30:55,641 [INFO] Epoch [7/30] - Train Loss: 65.3394 - Val Loss: 80.3441 - Val RMSE: 8.9635 - LR: 0.000013
+2025-03-02 20:31:46,648 [INFO] Epoch [8/30] - Train Loss: 63.6514 - Val Loss: 79.5656 - Val RMSE: 8.9200 - LR: 0.000013
+2025-03-02 20:32:37,289 [INFO] Epoch [9/30] - Train Loss: 60.9767 - Val Loss: 80.0880 - Val RMSE: 8.9492 - LR: 0.000013
+2025-03-02 20:33:28,652 [INFO] Epoch [10/30] - Train Loss: 60.3108 - Val Loss: 78.9369 - Val RMSE: 8.8846 - LR: 0.000013
+2025-03-02 20:34:20,350 [INFO] Epoch [11/30] - Train Loss: 58.6858 - Val Loss: 78.0211 - Val RMSE: 8.8330 - LR: 0.000001
+2025-03-02 20:35:10,569 [INFO] Epoch [12/30] - Train Loss: 58.3523 - Val Loss: 77.8241 - Val RMSE: 8.8218 - LR: 0.000001
+2025-03-02 20:36:01,579 [INFO] Epoch [13/30] - Train Loss: 58.2666 - Val Loss: 77.9835 - Val RMSE: 8.8308 - LR: 0.000001
+2025-03-02 20:36:53,869 [INFO] Epoch [14/30] - Train Loss: 57.8708 - Val Loss: 77.6222 - Val RMSE: 8.8103 - LR: 0.000001
+2025-03-02 20:37:44,349 [INFO] Epoch [15/30] - Train Loss: 57.8481 - Val Loss: 77.5129 - Val RMSE: 8.8041 - LR: 0.000001
+2025-03-02 20:38:36,259 [INFO] Epoch [16/30] - Train Loss: 57.5757 - Val Loss: 77.4575 - Val RMSE: 8.8010 - LR: 0.000000
+2025-03-02 20:39:27,150 [INFO] Epoch [17/30] - Train Loss: 57.7149 - Val Loss: 77.7515 - Val RMSE: 8.8177 - LR: 0.000000
+2025-03-02 20:40:17,574 [INFO] Epoch [18/30] - Train Loss: 57.9841 - Val Loss: 79.6389 - Val RMSE: 8.9241 - LR: 0.000000
+2025-03-02 20:41:08,499 [INFO] Epoch [19/30] - Train Loss: 57.9649 - Val Loss: 77.6503 - Val RMSE: 8.8119 - LR: 0.000000
+2025-03-02 20:41:08,500 [INFO] Early stopping triggered!
+2025-03-02 20:41:08,582 [INFO] Best model (Val RMSE=8.8010) saved to output/checkpoints/fold_3.pth
+2025-03-02 20:41:08,588 [INFO] 
+Fold 5/5
+2025-03-02 20:42:02,597 [INFO] Epoch [1/30] - Train Loss: 602.2527 - Val Loss: 216.3798 - Val RMSE: 14.7099 - LR: 0.000131
+2025-03-02 20:42:52,850 [INFO] Epoch [2/30] - Train Loss: 116.3313 - Val Loss: 115.1259 - Val RMSE: 10.7297 - LR: 0.000131
+2025-03-02 20:43:43,680 [INFO] Epoch [3/30] - Train Loss: 92.6527 - Val Loss: 92.0882 - Val RMSE: 9.5963 - LR: 0.000131
+2025-03-02 20:44:34,124 [INFO] Epoch [4/30] - Train Loss: 84.4449 - Val Loss: 91.1800 - Val RMSE: 9.5488 - LR: 0.000131
+2025-03-02 20:45:24,444 [INFO] Epoch [5/30] - Train Loss: 78.2843 - Val Loss: 87.0140 - Val RMSE: 9.3281 - LR: 0.000131
+2025-03-02 20:46:16,204 [INFO] Epoch [6/30] - Train Loss: 68.0908 - Val Loss: 79.6035 - Val RMSE: 8.9221 - LR: 0.000013
+2025-03-02 20:47:07,145 [INFO] Epoch [7/30] - Train Loss: 64.8865 - Val Loss: 81.1086 - Val RMSE: 9.0060 - LR: 0.000013
+2025-03-02 20:47:58,094 [INFO] Epoch [8/30] - Train Loss: 63.3591 - Val Loss: 77.2215 - Val RMSE: 8.7876 - LR: 0.000013
+2025-03-02 20:48:51,770 [INFO] Epoch [9/30] - Train Loss: 61.2873 - Val Loss: 75.8509 - Val RMSE: 8.7092 - LR: 0.000013
+2025-03-02 20:49:44,435 [INFO] Epoch [10/30] - Train Loss: 59.8707 - Val Loss: 75.4410 - Val RMSE: 8.6857 - LR: 0.000013
+2025-03-02 20:50:37,520 [INFO] Epoch [11/30] - Train Loss: 58.5246 - Val Loss: 75.7616 - Val RMSE: 8.7041 - LR: 0.000001
+2025-03-02 20:51:29,370 [INFO] Epoch [12/30] - Train Loss: 59.2268 - Val Loss: 75.5635 - Val RMSE: 8.6927 - LR: 0.000001
+2025-03-02 20:52:21,162 [INFO] Epoch [13/30] - Train Loss: 58.3823 - Val Loss: 74.9081 - Val RMSE: 8.6549 - LR: 0.000001
+2025-03-02 20:53:12,682 [INFO] Epoch [14/30] - Train Loss: 57.9008 - Val Loss: 74.7467 - Val RMSE: 8.6456 - LR: 0.000001
+2025-03-02 20:54:05,532 [INFO] Epoch [15/30] - Train Loss: 57.8065 - Val Loss: 75.3463 - Val RMSE: 8.6802 - LR: 0.000001
+2025-03-02 20:54:57,363 [INFO] Epoch [16/30] - Train Loss: 57.4164 - Val Loss: 75.1890 - Val RMSE: 8.6712 - LR: 0.000000
+2025-03-02 20:55:49,373 [INFO] Epoch [17/30] - Train Loss: 57.2604 - Val Loss: 75.4184 - Val RMSE: 8.6844 - LR: 0.000000
+2025-03-02 20:55:49,378 [INFO] Early stopping triggered!
+2025-03-02 20:55:49,466 [INFO] Best model (Val RMSE=8.6456) saved to output/checkpoints/fold_4.pth
+2025-03-02 20:55:49,471 [INFO] 
+Cross-Validation average RMSE: 8.6538
+2025-03-02 20:55:53,140 [INFO] Full dataset size: 36824
+2025-03-02 20:56:46,050 [INFO] Epoch [1/30] - Train Loss: 559.7966 - Val Loss: 131.5040 - Val RMSE: 11.4675 - LR: 0.000131
+2025-03-02 20:57:39,376 [INFO] Epoch [2/30] - Train Loss: 74.6112 - Val Loss: 68.5325 - Val RMSE: 8.2784 - LR: 0.000131
+2025-03-02 20:58:31,103 [INFO] Epoch [3/30] - Train Loss: 39.7005 - Val Loss: 61.6996 - Val RMSE: 7.8549 - LR: 0.000131
+2025-03-02 20:59:23,121 [INFO] Epoch [4/30] - Train Loss: 24.8997 - Val Loss: 53.5677 - Val RMSE: 7.3190 - LR: 0.000131
+2025-03-02 21:00:14,988 [INFO] Epoch [5/30] - Train Loss: 16.3352 - Val Loss: 51.2056 - Val RMSE: 7.1558 - LR: 0.000131
+2025-03-02 21:01:07,250 [INFO] Epoch [6/30] - Train Loss: 9.2090 - Val Loss: 49.0054 - Val RMSE: 7.0004 - LR: 0.000013
+2025-03-02 21:01:59,691 [INFO] Epoch [7/30] - Train Loss: 7.7260 - Val Loss: 48.8113 - Val RMSE: 6.9865 - LR: 0.000013
+2025-03-02 21:02:54,734 [INFO] Epoch [8/30] - Train Loss: 6.5838 - Val Loss: 48.8570 - Val RMSE: 6.9898 - LR: 0.000013
+2025-03-02 21:03:51,992 [INFO] Epoch [9/30] - Train Loss: 5.6495 - Val Loss: 48.6383 - Val RMSE: 6.9741 - LR: 0.000013
+2025-03-02 21:04:46,413 [INFO] Epoch [10/30] - Train Loss: 4.8932 - Val Loss: 49.1230 - Val RMSE: 7.0088 - LR: 0.000013
+2025-03-02 21:05:43,531 [INFO] Epoch [11/30] - Train Loss: 4.3959 - Val Loss: 48.6671 - Val RMSE: 6.9762 - LR: 0.000001
+2025-03-02 21:06:38,151 [INFO] Epoch [12/30] - Train Loss: 4.0914 - Val Loss: 48.4902 - Val RMSE: 6.9635 - LR: 0.000001
+2025-03-02 21:07:34,377 [INFO] Epoch [13/30] - Train Loss: 4.0026 - Val Loss: 48.8413 - Val RMSE: 6.9887 - LR: 0.000001
+2025-03-02 21:08:30,751 [INFO] Epoch [14/30] - Train Loss: 3.8867 - Val Loss: 48.5108 - Val RMSE: 6.9650 - LR: 0.000001
+2025-03-02 21:09:26,436 [INFO] Epoch [15/30] - Train Loss: 3.9696 - Val Loss: 48.9347 - Val RMSE: 6.9953 - LR: 0.000001
+2025-03-02 21:09:26,436 [INFO] Early stopping triggered!
+2025-03-02 21:09:26,537 [INFO] Best model (Val RMSE=6.9635) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 21:28:16,902 [INFO] Full dataset size: 42799
+2025-03-02 21:29:12,386 [INFO] Epoch [1/30] - Train Loss: 564.3161 - Val Loss: 116.4602 - Val RMSE: 10.7917 - LR: 0.000131
+2025-03-02 21:30:07,532 [INFO] Epoch [2/30] - Train Loss: 91.3290 - Val Loss: 98.1274 - Val RMSE: 9.9059 - LR: 0.000131
+2025-03-02 21:31:03,583 [INFO] Epoch [3/30] - Train Loss: 65.7909 - Val Loss: 103.5084 - Val RMSE: 10.1739 - LR: 0.000131
+2025-03-02 21:31:59,522 [INFO] Epoch [4/30] - Train Loss: 46.5531 - Val Loss: 95.0645 - Val RMSE: 9.7501 - LR: 0.000131
+2025-03-02 21:32:55,598 [INFO] Epoch [5/30] - Train Loss: 33.8453 - Val Loss: 94.9070 - Val RMSE: 9.7420 - LR: 0.000131
+2025-03-02 21:33:51,442 [INFO] Epoch [6/30] - Train Loss: 20.2897 - Val Loss: 91.9041 - Val RMSE: 9.5867 - LR: 0.000013
+2025-03-02 21:34:46,964 [INFO] Epoch [7/30] - Train Loss: 16.1276 - Val Loss: 90.8678 - Val RMSE: 9.5325 - LR: 0.000013
+2025-03-02 21:35:43,266 [INFO] Epoch [8/30] - Train Loss: 14.0238 - Val Loss: 90.9561 - Val RMSE: 9.5371 - LR: 0.000013
+2025-03-02 21:36:38,572 [INFO] Epoch [9/30] - Train Loss: 11.9519 - Val Loss: 91.8231 - Val RMSE: 9.5824 - LR: 0.000013
+2025-03-02 21:37:34,322 [INFO] Epoch [10/30] - Train Loss: 10.0510 - Val Loss: 93.8128 - Val RMSE: 9.6857 - LR: 0.000013
+2025-03-02 21:37:34,322 [INFO] Early stopping triggered!
+2025-03-02 21:37:34,417 [INFO] Best model (Val RMSE=9.5325) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 21:42:02,162 [INFO] Full dataset size: 42799
+2025-03-02 21:43:24,412 [INFO] Epoch [1/30] - Train Loss: 607.2262 - Val Loss: 135.8005 - Val RMSE: 11.6533 - LR: 0.000131
+2025-03-02 21:44:45,584 [INFO] Epoch [2/30] - Train Loss: 98.8885 - Val Loss: 104.3948 - Val RMSE: 10.2174 - LR: 0.000131
+2025-03-02 21:46:08,413 [INFO] Epoch [3/30] - Train Loss: 69.9703 - Val Loss: 97.5342 - Val RMSE: 9.8759 - LR: 0.000131
+2025-03-02 21:47:32,716 [INFO] Epoch [4/30] - Train Loss: 50.8475 - Val Loss: 105.6834 - Val RMSE: 10.2802 - LR: 0.000131
+2025-03-02 21:48:55,977 [INFO] Epoch [5/30] - Train Loss: 36.2417 - Val Loss: 106.9354 - Val RMSE: 10.3410 - LR: 0.000131
+2025-03-02 21:50:17,973 [INFO] Epoch [6/30] - Train Loss: 21.4451 - Val Loss: 91.9646 - Val RMSE: 9.5898 - LR: 0.000013
+2025-03-02 21:51:39,979 [INFO] Epoch [7/30] - Train Loss: 16.8972 - Val Loss: 91.5831 - Val RMSE: 9.5699 - LR: 0.000013
+2025-03-02 21:53:03,522 [INFO] Epoch [8/30] - Train Loss: 14.3220 - Val Loss: 91.8391 - Val RMSE: 9.5833 - LR: 0.000013
+2025-03-02 22:01:57,634 [INFO] Full dataset size: 52410
+2025-03-02 22:03:36,499 [INFO] Epoch [1/30] - Train Loss: 463.2575 - Val Loss: 99.5053 - Val RMSE: 9.9752 - LR: 0.000131
+2025-03-02 22:05:14,036 [INFO] Epoch [2/30] - Train Loss: 77.2439 - Val Loss: 87.6870 - Val RMSE: 9.3641 - LR: 0.000131
+2025-03-02 22:06:51,904 [INFO] Epoch [3/30] - Train Loss: 52.1528 - Val Loss: 74.5381 - Val RMSE: 8.6335 - LR: 0.000131
+2025-03-02 22:08:30,658 [INFO] Epoch [4/30] - Train Loss: 33.8876 - Val Loss: 73.7856 - Val RMSE: 8.5899 - LR: 0.000131
+2025-03-02 22:10:09,291 [INFO] Epoch [5/30] - Train Loss: 22.1942 - Val Loss: 73.1652 - Val RMSE: 8.5537 - LR: 0.000131
+2025-03-02 22:11:48,343 [INFO] Epoch [6/30] - Train Loss: 12.3848 - Val Loss: 64.7435 - Val RMSE: 8.0463 - LR: 0.000013
+2025-03-02 22:13:27,404 [INFO] Epoch [7/30] - Train Loss: 8.9279 - Val Loss: 64.7503 - Val RMSE: 8.0468 - LR: 0.000013
+2025-03-02 22:15:07,098 [INFO] Epoch [8/30] - Train Loss: 7.4457 - Val Loss: 63.8266 - Val RMSE: 7.9892 - LR: 0.000013
+2025-03-02 22:16:47,386 [INFO] Epoch [9/30] - Train Loss: 5.7865 - Val Loss: 64.7662 - Val RMSE: 8.0477 - LR: 0.000013
+2025-03-02 22:18:27,764 [INFO] Epoch [10/30] - Train Loss: 5.0589 - Val Loss: 63.7650 - Val RMSE: 7.9853 - LR: 0.000013
+2025-03-02 22:20:07,424 [INFO] Epoch [11/30] - Train Loss: 3.9559 - Val Loss: 63.9698 - Val RMSE: 7.9981 - LR: 0.000001
+2025-03-02 22:21:46,610 [INFO] Epoch [12/30] - Train Loss: 3.7504 - Val Loss: 63.8243 - Val RMSE: 7.9890 - LR: 0.000001
+2025-03-02 22:23:27,746 [INFO] Epoch [13/30] - Train Loss: 3.6720 - Val Loss: 64.1161 - Val RMSE: 8.0072 - LR: 0.000001
+2025-03-02 22:23:27,751 [INFO] Early stopping triggered!
+2025-03-02 22:23:27,834 [INFO] Best model (Val RMSE=7.9853) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 22:40:11,431 [INFO] Full dataset size: 52410
+2025-03-02 22:41:47,929 [INFO] Epoch [1/30] - Train Loss: 556.4379 - Val Loss: 108.5639 - Val RMSE: 10.4194 - LR: 0.000217
+2025-03-02 22:43:24,548 [INFO] Epoch [2/30] - Train Loss: 86.1392 - Val Loss: 83.1928 - Val RMSE: 9.1210 - LR: 0.000217
+2025-03-02 22:45:01,855 [INFO] Epoch [3/30] - Train Loss: 57.2528 - Val Loss: 83.4961 - Val RMSE: 9.1376 - LR: 0.000217
+2025-03-02 22:46:40,397 [INFO] Epoch [4/30] - Train Loss: 39.9370 - Val Loss: 87.8565 - Val RMSE: 9.3732 - LR: 0.000217
+2025-03-02 22:48:17,610 [INFO] Epoch [5/30] - Train Loss: 26.8816 - Val Loss: 75.2701 - Val RMSE: 8.6758 - LR: 0.000217
+2025-03-02 22:49:56,135 [INFO] Epoch [6/30] - Train Loss: 16.3029 - Val Loss: 63.2253 - Val RMSE: 7.9514 - LR: 0.000022
+2025-03-02 22:51:33,916 [INFO] Epoch [7/30] - Train Loss: 12.5231 - Val Loss: 63.2387 - Val RMSE: 7.9523 - LR: 0.000022
+2025-03-02 22:53:12,506 [INFO] Epoch [8/30] - Train Loss: 11.0143 - Val Loss: 62.5241 - Val RMSE: 7.9072 - LR: 0.000022
+2025-03-02 22:54:50,850 [INFO] Epoch [9/30] - Train Loss: 9.7257 - Val Loss: 62.2740 - Val RMSE: 7.8914 - LR: 0.000022
+2025-03-02 22:56:28,206 [INFO] Epoch [10/30] - Train Loss: 8.4178 - Val Loss: 63.4841 - Val RMSE: 7.9677 - LR: 0.000022
+2025-03-02 22:58:07,606 [INFO] Epoch [11/30] - Train Loss: 7.2975 - Val Loss: 62.0576 - Val RMSE: 7.8777 - LR: 0.000002
+2025-03-02 22:59:45,396 [INFO] Epoch [12/30] - Train Loss: 7.2614 - Val Loss: 62.3065 - Val RMSE: 7.8934 - LR: 0.000002
+2025-03-02 23:01:23,781 [INFO] Epoch [13/30] - Train Loss: 6.9746 - Val Loss: 62.4543 - Val RMSE: 7.9028 - LR: 0.000002
+2025-03-02 23:03:02,486 [INFO] Epoch [14/30] - Train Loss: 7.0024 - Val Loss: 62.2457 - Val RMSE: 7.8896 - LR: 0.000002
+2025-03-02 23:03:02,486 [INFO] Early stopping triggered!
+2025-03-02 23:03:02,574 [INFO] Best model (Val RMSE=7.8777) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 23:12:49,303 [INFO] Full dataset size: 47205
+2025-03-02 23:14:26,525 [INFO] Epoch [1/16] - Train Loss: 811.1612 - Val Loss: 335.0267 - Val RMSE: 18.3037 - LR: 0.000137
+2025-03-02 23:16:03,442 [INFO] Epoch [2/16] - Train Loss: 176.5074 - Val Loss: 99.3118 - Val RMSE: 9.9655 - LR: 0.000137
+2025-03-02 23:17:37,216 [INFO] Epoch [3/16] - Train Loss: 69.5008 - Val Loss: 105.9158 - Val RMSE: 10.2915 - LR: 0.000137
+2025-03-02 23:19:14,006 [INFO] Epoch [4/16] - Train Loss: 47.6861 - Val Loss: 99.1133 - Val RMSE: 9.9556 - LR: 0.000137
+2025-03-02 23:20:51,877 [INFO] Epoch [5/16] - Train Loss: 35.2336 - Val Loss: 91.0788 - Val RMSE: 9.5435 - LR: 0.000137
+2025-03-02 23:22:27,611 [INFO] Epoch [6/16] - Train Loss: 22.1809 - Val Loss: 74.5121 - Val RMSE: 8.6320 - LR: 0.000014
+2025-03-02 23:24:08,007 [INFO] Epoch [7/16] - Train Loss: 18.3288 - Val Loss: 74.3973 - Val RMSE: 8.6254 - LR: 0.000014
+2025-03-02 23:25:46,410 [INFO] Epoch [8/16] - Train Loss: 16.3250 - Val Loss: 74.9286 - Val RMSE: 8.6561 - LR: 0.000014
+2025-03-02 23:29:03,358 [INFO] Full dataset size: 49278
+2025-03-02 23:29:59,197 [INFO] Epoch [1/20] - Train Loss: 903.2792 - Val Loss: 537.0167 - Val RMSE: 23.1736 - LR: 0.000200
+2025-03-02 23:30:56,867 [INFO] Epoch [2/20] - Train Loss: 257.2377 - Val Loss: 146.1451 - Val RMSE: 12.0890 - LR: 0.000200
+2025-03-02 23:31:56,163 [INFO] Epoch [3/20] - Train Loss: 79.4286 - Val Loss: 80.8709 - Val RMSE: 8.9928 - LR: 0.000200
+2025-03-02 23:32:55,359 [INFO] Epoch [4/20] - Train Loss: 43.7366 - Val Loss: 78.0489 - Val RMSE: 8.8345 - LR: 0.000200
+2025-03-02 23:33:52,629 [INFO] Epoch [5/20] - Train Loss: 31.0478 - Val Loss: 75.7413 - Val RMSE: 8.7029 - LR: 0.000200
+2025-03-02 23:34:51,202 [INFO] Epoch [6/20] - Train Loss: 19.0110 - Val Loss: 70.5039 - Val RMSE: 8.3967 - LR: 0.000020
+2025-03-02 23:35:51,099 [INFO] Epoch [7/20] - Train Loss: 15.6234 - Val Loss: 70.5765 - Val RMSE: 8.4010 - LR: 0.000020
+2025-03-02 23:36:50,023 [INFO] Epoch [8/20] - Train Loss: 13.8818 - Val Loss: 69.9542 - Val RMSE: 8.3639 - LR: 0.000020
+2025-03-02 23:37:49,088 [INFO] Epoch [9/20] - Train Loss: 12.6564 - Val Loss: 70.4980 - Val RMSE: 8.3963 - LR: 0.000020
+2025-03-02 23:38:46,798 [INFO] Epoch [10/20] - Train Loss: 11.3705 - Val Loss: 70.3093 - Val RMSE: 8.3851 - LR: 0.000020
+2025-03-02 23:39:43,887 [INFO] Epoch [11/20] - Train Loss: 10.1269 - Val Loss: 70.6385 - Val RMSE: 8.4047 - LR: 0.000002
+2025-03-02 23:39:43,887 [INFO] Early stopping triggered!
+2025-03-02 23:39:43,975 [INFO] Best model (Val RMSE=8.3639) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth
+2025-03-02 23:40:18,440 [INFO] Full dataset size: 49278
+2025-03-02 23:41:18,158 [INFO] Epoch [1/20] - Train Loss: 628.5375 - Val Loss: 157.5709 - Val RMSE: 12.5527 - LR: 0.000186
+2025-03-02 23:42:18,237 [INFO] Epoch [2/20] - Train Loss: 95.7993 - Val Loss: 82.2932 - Val RMSE: 9.0716 - LR: 0.000186
+2025-03-02 23:43:16,989 [INFO] Epoch [3/20] - Train Loss: 55.8888 - Val Loss: 75.1489 - Val RMSE: 8.6688 - LR: 0.000186
+2025-03-02 23:44:17,593 [INFO] Epoch [4/20] - Train Loss: 38.7510 - Val Loss: 79.2677 - Val RMSE: 8.9032 - LR: 0.000186
+2025-03-02 23:45:19,123 [INFO] Epoch [5/20] - Train Loss: 27.6402 - Val Loss: 73.1643 - Val RMSE: 8.5536 - LR: 0.000186
+2025-03-02 23:47:36,500 [INFO] Full dataset size: 48927
+2025-03-02 23:48:32,798 [INFO] Epoch [1/20] - Train Loss: 627.4648 - Val Loss: 158.2262 - Val RMSE: 12.5788 - LR: 0.000186
+2025-03-02 23:49:30,628 [INFO] Epoch [2/20] - Train Loss: 93.6671 - Val Loss: 93.5035 - Val RMSE: 9.6697 - LR: 0.000186
+2025-03-02 23:50:27,998 [INFO] Epoch [3/20] - Train Loss: 54.2682 - Val Loss: 81.2673 - Val RMSE: 9.0148 - LR: 0.000186
+2025-03-02 23:51:25,483 [INFO] Epoch [4/20] - Train Loss: 35.9135 - Val Loss: 77.5606 - Val RMSE: 8.8068 - LR: 0.000186
+2025-03-02 23:52:22,895 [INFO] Epoch [5/20] - Train Loss: 24.8271 - Val Loss: 82.1000 - Val RMSE: 9.0609 - LR: 0.000186
+2025-03-02 23:53:20,763 [INFO] Epoch [6/20] - Train Loss: 15.4844 - Val Loss: 71.4273 - Val RMSE: 8.4515 - LR: 0.000019
+2025-03-02 23:54:18,814 [INFO] Epoch [7/20] - Train Loss: 12.8120 - Val Loss: 71.1437 - Val RMSE: 8.4347 - LR: 0.000019
+2025-03-02 23:55:18,679 [INFO] Epoch [8/20] - Train Loss: 11.1950 - Val Loss: 71.2062 - Val RMSE: 8.4384 - LR: 0.000019
+2025-03-02 23:56:15,893 [INFO] Epoch [9/20] - Train Loss: 9.8343 - Val Loss: 71.5692 - Val RMSE: 8.4599 - LR: 0.000019
+2025-03-02 23:57:13,639 [INFO] Epoch [10/20] - Train Loss: 9.1004 - Val Loss: 71.2592 - Val RMSE: 8.4415 - LR: 0.000019
+2025-03-02 23:57:13,639 [INFO] Early stopping triggered!
+2025-03-02 23:57:13,745 [INFO] Best model (Val RMSE=8.4347) saved to C:\Users\ramos\Desktop\GitHub\Kaggle-Competition-Age-Prediction\age-prediction-spring-25-at-cu-denver\output\checkpoints\best_ray_model_val.pth

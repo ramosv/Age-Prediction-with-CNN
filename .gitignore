@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+/age-prediction-spring-25-at-cu-denver
+/age
+*.csv
+/test.md
+
 # Distribution / packaging
 .Python
 build/

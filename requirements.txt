@@ -1,0 +1,15 @@
+# notes:
+# torch and torch vision can yield errors sometimes so i recommend you install them separately
+# pip install torch torchvision
+# same with ray[tune]
+# pip install 'ray[tune]'
+
+# there is a slight change that u may need to install additional packages sometimes I just be installing them on the fly
+
+pandas
+torch
+torchvision
+pillow
+scikit-learn
+matplotlib
+"ray[tune]"
