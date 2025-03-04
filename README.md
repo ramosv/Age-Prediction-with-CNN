@@ -201,30 +201,30 @@ For the full implementation, refer to: `agepredict/models/resnet.py`.
 
 ### Naive Grid Search
 
-An initial grid search over parameters $\text{lr} \approx 2.2 \times 10^{-4}$, a batch size of 32, and 5–10 epochs.
+An initial grid search over parameters $$\text{lr} \approx 2.2 \times 10^{-4}$$, a batch size of 32, and 5–10 epochs.
 
 ### Ray Tune
 
 To explore a broader hyperparameter space, Ray Tune was used:
 
 
-$$\text{lr} \in [10^{-5}, 10^{-3}], \quad$$
-$$\text{batch\_size} \in \{16, 32, 64\},\quad$$
-$$\text{epochs} \in \{10, 15, 20\}, \quad$$
-$$\text{early\_stop\_patience} \in \{3, 5\}.$$
-
+$$
+\text{lr} \in [10^{-5}, 10^{-3}], \quad
+\text{batch size} \in \{16, 32, 64\}, \quad
+\text{epochs} \in \{10, 15, 20\}, \quad
+\text{early stop patience} \in \{3, 5\}.
+$$
 
 Trials continued until a configuration with:
 
-$$\text{lr} \approx 2.2 \times 10^{-4}, \quad$$
-$$\text{batch\_size} = 16, \quad$$
-$$\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \quad$$
-$$\text{patience} = 3.$$
-
-
+$$
+\text{lr} \approx 2.2 \times 10^{-4}, \quad
+\text{batch size} = 16, \quad
+\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \quad
+\text{patience} = 3.
+$$
 
 gave us a best single-run RMSE of **6.69**. The **cross-validation** average was around **9.0**, confirming the model's stability.
-
 
 ### Cross-Validation
 
@@ -248,7 +248,7 @@ Multiple attempts were made:
 4. **ResNet with Data Cleaning**  
    - Removed extreme ages and low face scores; RMSE ≈ 10.68.
 5. **ResNet with Extended Cleaning + Ray Tune**  
-   - Refined bounding box filtering and hyperparameter selection; RMSE ≈ 9.0–9.3.
+   - Refined bounding box filtering and hyperparameter selection; RMSE ≈ 9.0 – 9.3.
 6. **ResNet with Cross-Validation**  
    - Achieved stable performance with an average RMSE around 9.0.
 
@@ -262,7 +262,7 @@ I did a few more submission but I did not implement new approaches. Mostly modif
 
 ### Adjustments & Observations
 
-After a bunch of tests and tweaks, here’s what actually worked:
+After a bunch of tests and tweaks, here's what actually worked:
 
 - **Data Cleaning**:  
   Retained only samples with ages between 1 and 100, a face score of at least 1.0, and excluded images with multiple detected faces. This resulted in a curated dataset of approximately 49,278 images with improved gender balance through partial oversampling.
@@ -271,7 +271,7 @@ After a bunch of tests and tweaks, here’s what actually worked:
   Adapted a pretrained ResNet-18 for regression by replacing its final layer with a dropout (p = 0.3) and a linear layer. Hyperparameter tuning led to a learning rate of ~1.86×10⁻⁴, a batch size of 128, and early stopping after 6 epochs, with training capped at 20 epochs.
 
 - **Performance**:  
-  The model’s RMSE dropped sharply, from over 23 in the first epoch to about 8.4–8.45 in later epochs, with cross-validation averaging near 9.0 and the best single run reaching approximately **6.6937**.
+  The model's RMSE dropped sharply, from over 23 in the first epoch to about 8.4 - 8.45 in later epochs, with cross-validation averaging near 9.0 and the best single run reaching approximately **6.6937**.
 
 These refinements in data preprocessing and model tuning have significantly enhanced performance. Future improvements may include exploring larger architectures, incorporating additional metadata, or employing ensemble methods.
 
@@ -287,7 +287,7 @@ In this project, I tackled **age prediction** by combining a heavily cleaned fac
 3. **Cross-Validation**:  
    - To provide a robust average RMSE and ensure generalization.
 4. **Hyperparameter Tuning**:  
-   - An initial grid search followed by Ray Tune, leading to a final configuration with $ \text{lr} \approx 2.2 \times 10^{-4} $ , a batch size of 16, and 20 epochs.
+   - An initial grid search followed by Ray Tune, leading to a final configuration with $\text{lr} \approx 2.2 \times 10^{-4}$ , a batch size of 16, and 20 epochs.
 5. **Final RMSE**:  
    - Around **6.6937** (LOCAL) on the validation set, with cross-validation averages near 9.0.
 
