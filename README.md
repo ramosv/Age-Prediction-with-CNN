@@ -210,10 +210,10 @@ To explore a broader hyperparameter space, Ray Tune was used:
 
 $$
 \begin{aligned}
-\text{lr} \in [10^{-5}, 10^{-3}], \\
-\text{batch size} \in \{16, 32, 64\}, \\
-\text{epochs} \in \{10, 15, 20\}, \\
-\text{early stop patience} \in \{3, 5\}.
+\hspace{0pt} \text{lr} \in [10^{-5}, 10^{-3}], \\
+\hspace{0pt} \text{batch size} \in \{16, 32, 64\}, \\
+\hspace{0pt} \text{epochs} \in \{10, 15, 20\}, \\
+\hspace{0pt} \text{early stop patience} \in \{3, 5\}.
 \end{aligned}
 $$
 
@@ -221,10 +221,10 @@ Trials continued until a configuration with:
 
 $$
 \begin{aligned}
-\text{lr} \approx 2.2 \times 10^{-4}, \\
-\text{batch size} = 16, \\
-\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \\
-\text{patience} = 3.
+\hspace{0pt} \text{lr} \approx 2.2 \times 10^{-4}, \\
+\hspace{0pt} \text{batch size} = 16, \\
+\hspace{0pt} \text{max epochs} = 20 \text{ (early stopped at } \sim 6), \\
+\hspace{0pt} \text{patience} = 3.
 \end{aligned}
 $$
 
