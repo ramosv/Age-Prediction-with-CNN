@@ -209,17 +209,16 @@ To explore a broader hyperparameter space, Ray Tune was used:
 
 
 $\text{lr} \in [10^{-5}, 10^{-3}]$ <br>
-
 $\text{batch} \in \{16, 32, 64\}$ <br>
-$\text{epochs} \in \{10, 15, 20\} $ <br>
-$\text{early stop patience} \in \{3, 5\} $
+$\text{epochs} \in \{10, 15, 20\}$ <br>
+$\text{early stop patience} \in \{3, 5\}$
 
 Trials continued until a configuration with:
 
-$\text{lr} \approx 2.2 \times 10^{-4}, $ <br>
-$\text{batch size} = 16, $ <br>
-$\text{max epochs} = 20 \text{ (early stopped at } \sim 6), $ <br>
-$\text{patience} = 3. $
+$\text{lr} \approx 2.2 \times 10^{-4}$ <br>
+$\text{batch size} = 16$ <br>
+$\text{max epochs} = 20 \text{ (early stopped at } \sim 6)$ <br>
+$\text{patience} = 3$
 
 
 gave us a best single-run RMSE of **6.69**. The **cross-validation** average was around **9.0**, confirming the model's stability.
