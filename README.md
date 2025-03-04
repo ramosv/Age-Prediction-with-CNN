@@ -183,7 +183,7 @@ The ResNet-based model leverages a **pretrained ResNet-18**, adapting its final 
 - **Residual connections** improve gradient flow, making deeper networks more trainable.  
 - **Pretrained weights** from ImageNet provide general feature representations useful for age estimation.  
 - **Final fully connected layer replaced** with:  
-  - **Dropout ($ p = 0.3 $)** to reduce overfitting.  
+  - **Dropout (p = 0.3)** to reduce overfitting.  
   - **Linear layer** to output a single age prediction.  
 - **Fine-tuning all layers** allows ResNet to adapt specifically to age prediction.  
 
@@ -209,19 +209,23 @@ To explore a broader hyperparameter space, Ray Tune was used:
 
 
 $$
-\text{lr} \in [10^{-5}, 10^{-3}], \quad
-\text{batch size} \in \{16, 32, 64\}, \quad
-\text{epochs} \in \{10, 15, 20\}, \quad
+\begin{aligned}
+\text{lr} \in [10^{-5}, 10^{-3}], \\
+\text{batch size} \in \{16, 32, 64\}, \\
+\text{epochs} \in \{10, 15, 20\}, \\
 \text{early stop patience} \in \{3, 5\}.
+\end{aligned}
 $$
 
 Trials continued until a configuration with:
 
 $$
-\text{lr} \approx 2.2 \times 10^{-4}, \quad
-\text{batch size} = 16, \quad
-\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \quad
+\begin{aligned}
+\text{lr} \approx 2.2 \times 10^{-4}, \\
+\text{batch size} = 16, \\
+\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \\
 \text{patience} = 3.
+\end{aligned}
 $$
 
 gave us a best single-run RMSE of **6.69**. The **cross-validation** average was around **9.0**, confirming the model's stability.
