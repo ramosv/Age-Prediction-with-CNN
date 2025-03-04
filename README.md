@@ -1,7 +1,10 @@
 # Age Prediction with Deep Neural Networks
 
 **Author**: Vicente Ramos  
-**Date**: 03/02/2025  
+**Date**: 03/02/2025
+
+**Competition Host:**
+**Ashis@CUDenver** (2025). *Age Prediction (Spring'25 at CU Denver)*. Retrieved from [https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver](https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver). *Kaggle*.
 
 ## Table of Contents
 0. [Getting Started](#getting-started)  
@@ -299,5 +302,5 @@ The project demonstrates that high-quality data and systematic tuning are crucia
 2. **Krizhevsky, A., Sutskever, I., & Hinton, G. E.** (2012). *ImageNet Classification with Deep Convolutional Neural Networks*. *Communications of the ACM, 60*(6), 84-90.  
 3. **Goodfellow, I., Bengio, Y., & Courville, A.** (2016). *Deep Learning*. MIT Press.  
 4. **Howard, J., & Gugger, S.** (2020). *Fastai: A Layered API for Deep Learning*. *Information, 11*(2), 108.  
-5. **Ray Tune Documentation**: [https://docs.ray.io/en/latest/tune/index.html](https://docs.ray.io/en/latest/tune/index.html)
-
+5. **Ray Tune Documentation**: [https://docs.ray.io/en/latest/tune/index.html](https://docs.ray.io/en/latest/tune/index.html)  
+6. **Ashis@CUDenver** (2025). *Age Prediction (Spring'25 at CU Denver)*. Retrieved from [https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver](https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver). *Kaggle*.
