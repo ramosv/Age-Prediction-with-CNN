@@ -87,7 +87,7 @@ The project uses the following datasets:
 - **`wiki_labels.csv`**: Contains face images with labeled ages, detection confidences (`face_score`), bounding boxes, etc.
 - **`wiki_judge.csv`**: A test set with unknown ages for scoring.
 
-**Goal**: Train a model $$ f(\text{image}) \to \text{age} $$ that minimizes the difference between predicted and true ages, measured by the **Root Mean Squared Error (RMSE)**:
+**Goal**: Train a model $$f(\text{image}) \to \text{age}$$ that minimizes the difference between predicted and true ages, measured by the **Root Mean Squared Error (RMSE)**:
 
 $$
 \text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (\hat{y}_i - y_i)^2}
@@ -208,25 +208,18 @@ An initial grid search over parameters $\text{lr} \approx 2.2 \times 10^{-4}$, a
 To explore a broader hyperparameter space, Ray Tune was used:
 
 
-$$
-\begin{aligned}
-\text{lr} &\in [10^{-5}, 10^{-3}], \\
-\text{batch\_size} &\in \{16, 32, 64\}, \\
-\text{epochs} &\in \{10, 15, 20\}, \\
-\text{early\_stop\_patience} &\in \{3, 5\}.
-\end{aligned}
-$$
+$$\text{lr} \in [10^{-5}, 10^{-3}], \quad$$
+$$\text{batch\_size} \in \{16, 32, 64\},\quad$$
+$$\text{epochs} \in \{10, 15, 20\}, \quad$$
+$$\text{early\_stop\_patience} \in \{3, 5\}.$$
+
 
 Trials continued until a configuration with:
 
-$$
-\begin{aligned}
-\text{lr} &\approx 2.2 \times 10^{-4}, \\
-\text{batch\_size} &= 16, \\
-\text{max epochs} &= 20 \quad \text{(early stopped at } \sim 6), \\
-\text{patience} &= 3.
-\end{aligned}
-$$
+$$\text{lr} \approx 2.2 \times 10^{-4}, \quad$$
+$$\text{batch\_size} = 16, \quad$$
+$$\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \quad$$
+$$\text{patience} = 3.$$
 
 
 
