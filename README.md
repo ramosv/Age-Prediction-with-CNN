@@ -205,27 +205,26 @@ An initial grid search over parameters $$\text{lr} \approx 2.2 \times 10^{-4}$$,
 
 ### Ray Tune
 
-To explore a broader hyperparameter space, Ray Tune was used:
-
+To explore a broader hyperparameter space, Ray Tune was used
 
 $$
-\begin{aligned}
-\hspace{0pt} \text{lr} \in [10^{-5}, 10^{-3}], \\
-\hspace{0pt} \text{batch size} \in \{16, 32, 64\}, \\
-\hspace{0pt} \text{epochs} \in \{10, 15, 20\}, \\
-\hspace{0pt} \text{early stop patience} \in \{3, 5\}.
-\end{aligned}
+\begin{array}{l}
+\text{lr} \in [10^{-5}, 10^{-3}], \\
+\text{batch size} \in \{16, 32, 64\}, \\
+\text{epochs} \in \{10, 15, 20\}, \\
+\text{early stop patience} \in \{3, 5\}.
+\end{array}
 $$
 
 Trials continued until a configuration with:
 
 $$
-\begin{aligned}
-\hspace{0pt} \text{lr} \approx 2.2 \times 10^{-4}, \\
-\hspace{0pt} \text{batch size} = 16, \\
-\hspace{0pt} \text{max epochs} = 20 \text{ (early stopped at } \sim 6), \\
-\hspace{0pt} \text{patience} = 3.
-\end{aligned}
+\begin{array}{l}
+\text{lr} \approx 2.2 \times 10^{-4}, \\
+\text{batch size} = 16, \\
+\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \\
+\text{patience} = 3.
+\end{array}
 $$
 
 gave us a best single-run RMSE of **6.69**. The **cross-validation** average was around **9.0**, confirming the model's stability.
