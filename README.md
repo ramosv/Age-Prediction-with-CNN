@@ -57,11 +57,11 @@ Download the dataset from Kaggle:
 - For details on preprocessing, refer to the implementation in `dataset.py`.
 
 ### 6. Train the Model  
-- Open **`mmain.py`** (at the root of the repo) and update the root path variable (Line 6).  
+- Open **`main.py`** (at the root of the repo) and update the root path variable (Line 6).  
 - Enable or disable **hyperparameter tuning** with Ray Tune or **cross-validation** by commenting/uncommenting the respective lines.  
 - Start training:  
   ```bash
-  python mmain.py
+  python main.py
   ```
 
 ### 7. Retrieve Results  
@@ -87,7 +87,7 @@ The project uses the following datasets:
 - **`wiki_labels.csv`**: Contains face images with labeled ages, detection confidences (`face_score`), bounding boxes, etc.
 - **`wiki_judge.csv`**: A test set with unknown ages for scoring.
 
-**Goal**: Train a model $ f(\text{image}) \to \text{age} $ that minimizes the difference between predicted and true ages, measured by the **Root Mean Squared Error (RMSE)**:
+**Goal**: Train a model $$ f(\text{image}) \to \text{age} $$ that minimizes the difference between predicted and true ages, measured by the **Root Mean Squared Error (RMSE)**:
 
 $$
 \text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (\hat{y}_i - y_i)^2}
@@ -201,25 +201,32 @@ For the full implementation, refer to: `agepredict/models/resnet.py`.
 
 ### Naive Grid Search
 
-An initial grid search over parameters $ \text{lr} \approx 2.2 \times 10^{-4} $, a batch size of 32, and 5–10 epochs.
+An initial grid search over parameters $\text{lr} \approx 2.2 \times 10^{-4}$, a batch size of 32, and 5–10 epochs.
 
 ### Ray Tune
 
 To explore a broader hyperparameter space, Ray Tune was used:
 
 
-$$ \text{lr} \in [10^{-5}, 10^{-3}], \quad $$
-$$\text{batch\_size} \in \{16, 32, 64\},\quad $$
-$$\text{epochs} \in \{10, 15, 20\}, \quad $$
-$$\text{early\_stop\_patience} \in \{3, 5\}.$$
-
+$$
+\begin{aligned}
+\text{lr} &\in [10^{-5}, 10^{-3}], \\
+\text{batch\_size} &\in \{16, 32, 64\}, \\
+\text{epochs} &\in \{10, 15, 20\}, \\
+\text{early\_stop\_patience} &\in \{3, 5\}.
+\end{aligned}
+$$
 
 Trials continued until a configuration with:
 
-$$\text{lr} \approx 2.2 \times 10^{-4}, \quad $$
-$$\text{batch\_size} = 16, \quad $$
-$$\text{max epochs} = 20 \text{ (early stopped at } \sim 6), \quad $$
-$$\text{patience} = 3. $$
+$$
+\begin{aligned}
+\text{lr} &\approx 2.2 \times 10^{-4}, \\
+\text{batch\_size} &= 16, \\
+\text{max epochs} &= 20 \quad \text{(early stopped at } \sim 6), \\
+\text{patience} &= 3.
+\end{aligned}
+$$
 
 
 
