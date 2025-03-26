@@ -1,10 +1,13 @@
 # Age Prediction with Deep Neural Networks
 
-**Author**: Vicente Ramos  
+**Author**: Vicente Ramos
 **Date**: 03/02/2025
 
-**Competition Host:**
-**Ashis@CUDenver** (2025). *Age Prediction (Spring'25 at CU Denver)*. Retrieved from [https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver](https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver). *Kaggle*.
+**Kaggle Competition Host: Dr. Biswas** 
+
+**Competition Details**: [*Age Prediction (Spring'25 @ CU Denver)*](https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver).
+
+**Dataset**: [Dataset download link](https://www.kaggle.com/competitions/age-prediction-spring-25-at-cu-denver/data)
 
 ## Table of Contents
 0. [Getting Started](#getting-started)  
