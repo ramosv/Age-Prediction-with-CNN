@@ -5,7 +5,7 @@
 
 **Kaggle Competition Host: Dr. Biswas** 
 
-**Competition Detatails**: [*Age Prediction (Spring'25 @ CU Denver)*](https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver).
+**Competition Details**: [*Age Prediction (Spring'25 @ CU Denver)*](https://kaggle.com/competitions/age-prediction-spring-25-at-cu-denver).
 
 **Dataset**: [Dataset download link](https://www.kaggle.com/competitions/age-prediction-spring-25-at-cu-denver/data)
 
